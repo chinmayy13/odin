@@ -5,6 +5,8 @@ Rule reminder: use the Goal text that Studio approved. Paste it word for word in
 
 Last checked against Project_Odin_Review_Lessons.md and the Studio criteria list (items 1 to 35).
 
+The finished files (working folder, reference deliverables, narration script) are in the pump_task folder. Where the numbers here differ from earlier drafts, the notebook output in pump_task is the source of truth, and this file now matches it.
+
 ---
 
 ## 1. The story and the answer key
@@ -18,15 +20,15 @@ Reference results (computed and checked before writing this pack, use them to co
 | Operating flow (m3/h) | 118.5 | 119.6 | 149.5 |
 | Operating head (m) | 26.9 | 27.1 | 32.1 |
 | Flow as % of best efficiency flow | 113% | 101% | 91% |
-| Efficiency at operating point | 0.729 | 0.780 | 0.789 |
-| Shaft power (kW) | 11.85 | 11.26 | 16.49 |
+| Efficiency at operating point | 0.729 | 0.780 | 0.794 |
+| Shaft power (kW) | 11.85 | 11.26 | 16.38 |
 | NPSH available (m) | 4.28 | 4.27 | 3.90 |
 | NPSH required (m) | 3.87 | 2.26 | 2.39 |
 | NPSH margin (m) | 0.41 | 2.01 | 1.51 |
 | NPSH ratio (avail / req) | 1.11 | 1.89 | 1.63 |
-| Energy cost per year (USD) | 11,379 | 10,809 | 15,830 |
+| Energy cost per year (USD) | 11,381 | 10,809 | 15,721 |
 | Purchase price (USD) | 4,800 | 6,200 | 8,900 |
-| 5 year cost (USD) | 61,693 | 60,244 | 88,052 |
+| 5 year cost (USD) | 61,703 | 60,247 | 87,504 |
 
 Decision criteria to say out loud:
 1. Delivers at least 110 m3/h.
@@ -36,7 +38,7 @@ Decision criteria to say out loud:
 
 Result: A fails criterion 3 (margin 0.41 m, ratio 1.11). C passes everything but costs far more and delivers a lot of flow the plant does not need. B passes everything and has the lowest 5 year cost. Recommend Pump B.
 
-Hand check value (system head at 120 m3/h): velocity 1.790 m/s, Reynolds 343,010, friction factor 0.0167, friction loss 2.39 m, fittings loss 1.71 m, heat exchanger 5.00 m, static 18.00 m, total 27.11 m.
+Hand check value (system head at 120 m3/h): velocity 1.790 m/s, Reynolds 343,010, friction factor 0.0167 (Colebrook), friction loss 2.39 m, fittings loss 1.71 m, heat exchanger 5.00 m, static 18.00 m, total 27.11 m. The notebook's independent hand check uses the Swamee-Jain friction factor (0.0168) and gets 27.12 m, a difference of 0.013 m.
 
 ---
 
@@ -46,9 +48,12 @@ Hand check value (system head at 120 m3/h): velocity 1.790 m/s, Reynolds 343,010
 |---|---|
 | input 1 pump curves.csv | Flow, head, efficiency, NPSH required and price for the three pumps (33 rows) |
 | input 2 piping data.json | Pipe diameter, roughness, lengths, fitting factors, static head, suction lift, water properties, running hours, electricity rate |
-| input 3 helper.py | Functions: friction factor (Colebrook), head loss, system head, NPSH available, curve fitting, operating point, plotting, cost table |
-| input 4 starter notebook.ipynb | Notebook with markdown headings and one ready to run cell per step |
+| input 3 helper.py | Functions for friction factor, head loss, system curve, curve fitting, operating point, NPSH, cost and plots (called helper.py in the working folder) |
+| input 4 starter notebook.ipynb | Notebook with nine steps, one ready to run cell each (called pump selection.ipynb in the working folder) |
 | input 5 data sheet template.docx | One page pump data sheet with empty fields and tables |
+| input 6 starter deck.pptx | Three titled slides, with caption text already in place on slides 1 and 2 |
+
+All six files are built and tested in the pump_task folder (Pump Task Working Folder.zip).
 
 Generator for inputs 1 and 2 is in Appendix A. Run it once, before recording.
 
@@ -121,8 +126,10 @@ Name every file with spaces. Inputs first, then artifacts, then final outputs. D
 - input 3 helper.py
 - input 4 starter notebook.ipynb
 - input 5 data sheet template.docx
+- input 6 starter deck.pptx
 - artifact 1 executed notebook.ipynb
 - artifact 2 system and pump curves.png
+- artifact 3 comparison table.png
 - final output 1 briefing.pdf
 - final output 2 briefing.pptx
 - final output 3 pump data sheet.docx
@@ -206,7 +213,7 @@ PIPING = dict(
 PUMPS = {
  "Pump A": dict(H0=36.0, a=6.5e-4, Qbep=105, eta=0.74, w=110, n0=2.4, b=1.05e-4, price=4800),
  "Pump B": dict(H0=38.5, a=8.0e-4, Qbep=118, eta=0.78, w=120, n0=1.4, b=0.6e-4, price=6200),
- "Pump C": dict(H0=41.0, a=4.0e-4, Qbep=165, eta=0.80, w=130, n0=1.5, b=0.4e-4, price=8900),
+ "Pump C": dict(H0=41.0, a=4.0e-4, Qbep=165, eta=0.80, w=180, n0=1.5, b=0.4e-4, price=8900),
 }
 with open("input 1 pump curves.csv", "w", newline="") as f:
     w = csv.writer(f)
