@@ -1,9 +1,6 @@
 """Helper functions for the chilled-water pump selection notebook (synthetic data)."""
 import numpy as np
 import pandas as pd
-import matplotlib
-
-matplotlib.use("Agg")  # draw to file; the notebook still shows the saved figure
 import matplotlib.pyplot as plt
 
 COLOURS = {"A": "#0072B2", "B": "#009E73", "C": "#D55E00"}
@@ -36,7 +33,7 @@ def fit_report(df, fits):
 
 def plot_operating_points(df, fits, system, op, path, passed=None):
     """Left: pump head curves and the system curve. Right: zoom on the operating points.
-    Failed pumps are drawn as hollow markers."""
+    Failed pumps are drawn as hollow markers. Saves the picture and shows it in the notebook."""
     fig, (ax, zx) = plt.subplots(1, 2, figsize=(10, 4.6), dpi=150, gridspec_kw={"width_ratios": [1.5, 1]})
     q = np.linspace(10, 80, 200)
     qz = np.linspace(49.4, 50.8, 100)
@@ -72,5 +69,40 @@ def plot_operating_points(df, fits, system, op, path, passed=None):
     zx.grid(alpha=0.25)
     fig.tight_layout()
     fig.savefig(path)
-    plt.close(fig)
+    plt.show()
+    return path
+
+
+def memo_table(res):
+    """Five-column criteria table for the memo. No thousands separators, so it pastes cleanly as CSV."""
+    return pd.DataFrame({
+        "Pump": res.pump,
+        "% of BEP flow": res.pct_of_bep.round().astype(int),
+        "NPSH margin (m)": res.npsh_margin_m.round(2),
+        "Annual cost ($)": res.annual_cost.round().astype(int),
+        "Result": np.where(res["pass"], "Pass", "Fail (NPSH)"),
+    })
+
+
+def cost_chart(res, path):
+    """Annual energy cost per pump. The best passing pump is solid, failed pumps are hollow."""
+    passing = res[res["pass"]]
+    best = passing.loc[passing.annual_cost.idxmin(), "pump"]
+    fig, ax = plt.subplots(figsize=(7.5, 4.2), dpi=150)
+    for i, (_, r) in enumerate(res.iterrows()):
+        ok = bool(r["pass"])
+        colour = COLOURS.get(r["pump"], "#888888")
+        ax.bar(i, r["annual_cost"], width=0.6, color=colour if ok else "white", edgecolor=colour,
+               linewidth=2, hatch=None if ok else "//")
+        label = f"${r['annual_cost']:,.0f}" + ("" if ok else "\nfails NPSH margin")
+        ax.text(i, r["annual_cost"] + 150, label, ha="center", va="bottom", fontsize=10, color="#222222")
+    ax.set_xticks(range(len(res)))
+    ax.set_xticklabels([f"Pump {p}" + ("  (recommended)" if p == best else "") for p in res.pump], fontsize=10)
+    ax.set_ylabel("Annual energy cost ($)", fontsize=10)
+    ax.set_ylim(0, res.annual_cost.max() * 1.25)
+    ax.set_title("Annual energy cost at the operating point (6,000 h, $0.12 per kWh)", fontsize=11)
+    ax.grid(axis="y", alpha=0.25)
+    fig.tight_layout()
+    fig.savefig(path)
+    plt.show()
     return path

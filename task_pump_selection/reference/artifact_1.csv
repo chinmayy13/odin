@@ -1,0 +1,4 @@
+Pump,% of BEP flow,NPSH margin (m),Annual cost ($),Result
+A,107,2.32,12762,Pass
+B,93,1.99,11824,Pass
+C,87,1.08,11505,Fail (NPSH)

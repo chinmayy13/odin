@@ -1,145 +1,76 @@
-# Pump selection task: complete pack
+# Pump selection task: pack index
 
 Idea status: approved. Apps: Visual Studio Code, Microsoft Word, PowerPoint.
-Everything below follows the approved text, `Project_Odin_Writer_Guidelines.md` and `Project_Odin_Review_Lessons.md`.
+This pack follows the approved text, `Project_Odin_Writer_Guidelines.md`, `guide.pdf` and `Project_Odin_Review_Lessons.md`.
+**The recording itself is in `SCRIPT.docx` (also `SCRIPT.md`).** Read it start to finish before you record.
 
-## 0. Read this first
+## 0. Two things to settle before you record
 
-1. **Where the input files came from.** I (Claude) drafted `pump_curves.csv`, `pump_helpers.py`, the notebook skeleton and the memo template. The guide says AI-made inputs may only come from Gemini, and the approved text says "AI-generated before recording". Before you use them:
-   - **Safest:** ask @Loki in the domain Loki channel: "My inputs were drafted by another AI. Can I use them, and how do I label them?"
-   - **Fallback:** rebuild the CSV and helper yourself or with Gemini, and check your results against section 2. If Gemini's numbers differ, your results will differ slightly, which is fine as long as the logic holds.
-   - Do not run my files through Gemini just to relabel them.
-2. **Small gap in the approved text.** Step 1 says "prepared notebook". The approved starting materials list only the CSV, helper and Word template. Say "prepared notebook with empty cells" in the first narration, and include it in `Deliverables.zip` as an input.
-3. **Typing budget is tight.** Non-coding tasks must stay under 20% typing. The pack is built for about 15%. See section 6.
+1. **Where the input files came from.** I (Claude) drafted the five inputs. The guide allows AI-made inputs only from Gemini, and the approved text says "AI-generated before recording". Ask @Loki: "My inputs were drafted by another AI. Can I use them, and how do I label them?" If the answer is no, rebuild the CSV and helper with Gemini and compare your results with the answer key below. Do not run my files through Gemini just to relabel them.
+2. **Small gap in the approved text.** The approved starting materials list the CSV, the helper and the Word template. The recording also uses a starter notebook and a two-slide deck template. Say "prepared input" when you first show each, and include all five in `Deliverables.zip` as inputs. If you want the text to match exactly, submit a change request first.
 
-## 1. Files in this folder
+## 1. Files
 
 | File | Use |
 |---|---|
-| `inputs/pump_curves.csv` | input: 24 rows (3 pumps, 8 flow points) |
-| `inputs/pump_helpers.py` | input: fitting report and chart function |
-| `inputs/pump_selection.ipynb` | input: skeleton, comments and `...` placeholders where you type |
-| `inputs/memo_template.docx` | input: headings only |
-| `reference/pump_selection_solved.ipynb` | answer key, executed. **Do not record or submit this.** |
-| `reference/operating_points.csv`, `.png` | what your outputs should look like |
-| `Metadata.rtf` | filled in. Upload it separately, not in the zip |
-| `SCRIPT.md`, `SCRIPT.docx` | word-by-word narration, typed text and clicks for the whole recording |
-| `zips/` | `Odin_Pump_Task_Pack.zip` (everything), `PumpTask_working_folder.zip` (what goes on the Recorder Desktop), `Deliverables_starter.zip` (the four inputs, already named) |
+| `SCRIPT.docx`, `SCRIPT.md` | word-by-word script with timing checkpoints, typing counter and trim lists |
+| `Metadata.rtf` | filled in. Upload it separately, never in `Deliverables.zip` |
+| `inputs/input_1_pump_curves.csv` | 24 rows: 3 pumps at 8 flow points |
+| `inputs/input_2_pump_helpers.py` | fitting, plotting and table helpers |
+| `inputs/input_3_starter_notebook.ipynb` | starter with 13 `FILL_IN` gaps (358 characters to type) |
+| `inputs/input_4_memo_template.docx` | headings only, an empty line under each |
+| `inputs/input_5_deck_template.pptx` | two empty slides, each with a title and a content box |
+| `reference/` | answer key: executed notebook and outputs. **Never record or submit these** |
+| `zips/pump_study_inputs.zip` | the five inputs in a folder called `pump_study`. Unzip onto the Recorder user's Desktop |
+| `zips/Deliverables_starter.zip` | the five inputs already named `input 1.csv` to `input 5.pptx` |
+| `zips/Odin_Pump_Task_Pack.zip` | everything above in one zip |
 
-To run the notebook, keep `pump_curves.csv`, `pump_helpers.py` and the notebook in **one folder** (for example `PumpTask` on the Recorder user's Desktop).
+## 2. Answer key
 
-## 2. Answer key (use it to check yourself)
+System curve `H = 12 + 0.0064 Q^2` (Q in L/s). Duty 50 L/s at 28 m. NPSH available 6.0 m. 6,000 h a year, $0.12/kWh.
 
-System curve: `H = 12 + 0.0064 Q^2` (Q in L/s). Duty 50 L/s at 28 m. NPSH available 6.0 m. 6,000 h/yr, $0.12/kWh.
-
-| Pump | Operating flow (L/s) | Head (m) | Efficiency | % of BEP flow | NPSH margin (m) | Shaft kW | Annual cost | Result |
+| Pump | Flow (L/s) | Head (m) | Efficiency | % of BEP flow | NPSH margin (m) | Shaft kW | Annual cost | Result |
 |---|---|---|---|---|---|---|---|---|
 | A | 49.91 | 27.94 | 77.2% | 107.3% | 2.32 | 17.72 | $12,762 | Pass |
 | B | 50.00 | 28.00 | 83.6% | 92.6% | 1.99 | 16.42 | $11,824 | Pass |
 | C | 50.20 | 28.13 | 86.7% | 86.5% | 1.08 | 15.98 | $11,505 | **Fail (NPSH)** |
 
-- **Decision:** buy **B**. C is cheapest ($319 a year less than B) but its 1.08 m margin is under 1.5 m, so it risks cavitation. A is the runner-up, about $938 a year more than B.
-- **Hand check:** pump B's head at 50.00 L/s is 28.00 m on both curves, difference about 0.00 m (limit 0.1 m).
-- **Fit error (largest, from `fit_report`):** head 0.04 m, efficiency 0.05 points, NPSHr 0.04 m, so the quadratic fits are tight.
+Decision: **B**. C is cheapest ($319 a year below B) but its 1.08 m margin is under 1.5 m, so it risks cavitation. A is the runner-up, $938 a year more than B. I rehearsed the 13 typed lines against this key and the outputs matched exactly.
 
-## 3. Text to paste (all must match exactly)
+## 3. Text that must match everywhere
 
-**Goal** goes in four places: Studio (already approved), TaskRecorder Task Description, the opening Word note, and the `Metadata.rtf` Request. Paste **only the Goal**, never the Approval ID or the other headings.
+The **Goal** goes into four places: Studio (already approved), TaskRecorder, the opening Word note, and the `Metadata.rtf` Request. Paste only the Goal, never the Approval ID or the other headings.
 
 > I am a mechanical engineer helping a facilities manager pick a replacement circulation pump for a building chilled-water loop. Using a synthetic CSV of head, efficiency and NPSH-required data for three candidate pumps, I will use Visual Studio Code to fit a head–flow curve for each pump in a Jupyter notebook and intersect it with the system curve to find its operating point. I will then check that the operating point sits within 70–110% of best-efficiency flow with at least 1.5 m of NPSH margin, and compare annual energy cost. In Microsoft Word I will write a one-page recommendation memo with the criteria table and operating-point chart. In PowerPoint I will build a two-slide approval deck so the facilities manager can approve the purchase.
 
-**TaskRecorder Used Apps:** Visual Studio Code, Microsoft Word, PowerPoint.
+- **TaskRecorder Used Apps:** Visual Studio Code, Microsoft Word, PowerPoint.
+- **Metadata.rtf Topology:** Visual Studio Code (CREATE) -> Microsoft Word (CREATE) -> PowerPoint (CREATE) -> Visual Studio Code (LOOKUP). The last visit is the cross-check in Part 8.
+- **Final Notes (exactly):** AI-generated before recording
 
-**Metadata.rtf** is already filled in this folder: Topology `Visual Studio Code (CREATE) -> Microsoft Word (CREATE) -> PowerPoint (CREATE)`, Request = the Goal, and a six-line Task Description. The red example section is removed. Open it once to check the formatting, but never open it while recording.
+## 4. Deliverables.zip (13 files, flat inside a folder named `Deliverables`)
 
-**Studio, "Input and artifact files":** pick what is true after you resolve section 0, item 1. **Final Notes (exactly):** `AI-generated before recording`
+Name every file with spaces. Build the zip after recording, from copies, with `zip -r -X "Deliverables.zip" Deliverables -x "*.DS_Store"`.
 
-## 4. Before you press Start
-
-- [ ] Insightful running and minimized. Notifications off. Mac plugged in. At least 35 GB free.
-- [ ] Recorder user account. Dock left or right. Clock shows seconds. New wallpaper plus dark mode (two changes). Cursor default.
-- [ ] Accessibility Inspector running with its window closed (dot under the dock icon).
-- [ ] **VS Code:**
-  - Python and Jupyter extensions installed, and the kernel already selected.
-  - Folder `PumpTask` open with the skeleton notebook.
-  - Chat, Copilot and every AI panel closed or disabled (AI on screen fails the recording).
-  - **Dry run** in a temporary copy so the first cell is fast, then reset the notebook to the skeleton.
-- [ ] **Word:** licensed and signed in with the OTA account. No name, email or avatar visible in the title bar or ribbon. The Copilot ribbon button is never touched. The memo template is open in its own window, minimized.
-- [ ] **PowerPoint:** same checks. A blank presentation is open, **Designer and design-idea suggestions turned off** (these look like AI).
-- [ ] Opening note is the **only** window visible: the Goal pasted into a new Word document (not Notes or TextEdit). If you reuse Word for the memo, it counts as an app.
-- [ ] No Studio, Slack, guidelines, Metadata.rtf or Drive tabs open. No file dialog should reveal a real name, so keep everything in `Desktop/PumpTask`.
-- [ ] TaskRecorder: signed in with the OTA account, permissions green, microphone on, **window dragged larger until the whole Goal is visible**, Used Apps filled. 1-minute audio test done.
-
-## 5. Recording plan (about 20 minutes of speaking; about 28 minutes of video)
-
-The word-by-word narration, typed text and every click are in **`SCRIPT.md`** (also `SCRIPT.docx`). Keep it on a second device or on paper, never on the recording Mac.
-
-| Scene | Minutes | App | What happens |
-|---|---|---|---|
-| 0 | 0:15 | Word (opening note) | Start, minimize TaskRecorder, say only the one intro sentence, minimize the note |
-| 1 | 3 | VS Code | Open notebook, explain the prepared inputs, run the load cell, check ranges |
-| 2 | 2 | VS Code | Fit quadratic curves and read the fit error |
-| 3 | 3 | VS Code | System curve, operating points, hand check on pump B |
-| 4 | 5 | VS Code | Constants, four formulas, pass/fail, judgement |
-| 5 | 2 | VS Code | Save table and chart, check them, save the notebook |
-| 6 | 5 | Word | Memo text, table, chart, save .docx, export PDF, confirm both files exist |
-| 7 | 3 | PowerPoint | Two slides, save .pptx |
-| 8 | 0:30 | none | Wrap-up, then a silent stop |
-
-**Do not open the PDF in Preview.** Preview is a restricted app. Confirm the PDF exists through Word's File > Open list, as the script does.
-
-## 6. Typing plan (target about 15%; limit 20%)
-
-About 355 characters of code in 12 short placeholders (about 1.4 minutes), about 77 words in Word (about 1.5 minutes), the 20-cell memo table (about 40 seconds), and the deck text (about 45 seconds). That is about 4.5 minutes of a 28-minute video.
-
-- Keep every burst **under 30 s**. Between bursts, review and point at what you typed.
-- Rehearse once with a stopwatch. If it is over 15%, shorten the Word sentences, never the engineering lines.
-- Mouse idle never over 20 s, and keep moving the pointer along the table while code runs.
-
-## 7. Memo and deck text (matches the script and the notebook output)
-
-**Word (one page):**
-- Purpose: Select a replacement pump for the chilled-water loop; duty is 50 L/s at 28 m.
-- Criteria: Flow 70 to 110% of best-efficiency flow; NPSH margin at least 1.5 m; cost at 6,000 h and $0.12 per kWh.
-- Table, 5 columns by 4 rows: Pump | % of BEP flow | NPSH margin (m) | Annual cost | Result. Rows: A 107%, 2.32, $12,762, Pass; B 93%, 1.99, $11,824, Pass; C 87%, 1.08, $11,505, Fail (NPSH).
-- Recommendation: Buy pump B: it passes both criteria and is the cheapest pump that does. Pump C is $319 a year cheaper but fails the NPSH margin, so it risks cavitation. Pump A is the runner-up, $938 a year more than B.
-
-**PowerPoint:**
-- Slide 1 title: "Pump B meets the 50 L/s duty". Body: the chart image.
-- Slide 2 title: "Pump B is the lowest-cost pump that passes". Table, 3 columns by 4 rows: Pump | Annual cost | Result (A $12,762 Pass; B $11,824 Pass; C $11,505 Fail (NPSH)). Text box: "Recommend pump B; pump A is the runner-up."
-
-Saved file names on the Recorder Desktop: `recommendation memo.docx`, `recommendation memo.pdf`, `approval deck.pptx`, in the `PumpTask` folder.
-
-## 8. Deliverables.zip (name with spaces, keep extensions)
-
-Build it **after** recording, from copies. Rename only the copies, so the notebook still imports `pump_helpers` during the recording. Remove Mac junk with `zip -d "Deliverables.zip" "__MACOSX/*" "*.DS_Store"` or build with `zip -r -X "Deliverables.zip" Deliverables -x "*.DS_Store"`, not Finder's Compress.
-
-| Name in the zip | From |
+| In the study folder | In the zip |
 |---|---|
-| `input 1.csv` | `pump_curves.csv` |
-| `input 2.py` | `pump_helpers.py` |
-| `input 3.ipynb` | the blank skeleton notebook |
-| `input 4.docx` | `memo_template.docx` (blank) |
-| `final output 1.ipynb` | your executed notebook (the one you saved with Command plus S) |
-| `final output 2.csv` | `operating_points.csv` |
-| `final output 3.png` | `operating_points.png` |
-| `final output 4.docx` | your memo |
-| `final output 5.pdf` | your memo PDF |
-| `final output 6.pptx` | your deck |
+| `input_1_pump_curves.csv` | `input 1.csv` |
+| `input_2_pump_helpers.py` | `input 2.py` |
+| `input_3_starter_notebook.ipynb` (untouched) | `input 3.ipynb` |
+| `input_4_memo_template.docx` (untouched) | `input 4.docx` |
+| `input_5_deck_template.pptx` (untouched) | `input 5.pptx` |
+| `artifact_1.csv` (criteria table) | `artifact 1.csv` |
+| `artifact_2.png` (cost chart) | `artifact 2.png` |
+| `final_output_1.ipynb` | `final output 1.ipynb` |
+| `final_output_2.csv` | `final output 2.csv` |
+| `final_output_3.png` | `final output 3.png` |
+| `final_output_4.docx` | `final output 4.docx` |
+| `final_output_5.pdf` | `final output 5.pdf` |
+| `final_output_6.pptx` | `final output 6.pptx` |
 
-Do not include `Metadata.rtf` in the zip. Upload four things to Studio: `Metadata.rtf`, `video.mp4` (from the `recording_...` folder, unrenamed), the `recording_*.zip`, and `Deliverables.zip`.
+Upload four things to Studio: `Metadata.rtf`, `video.mp4` (from the `recording_...` folder, never renamed), the TaskRecorder zip `recording_*.zip`, and `Deliverables.zip`.
 
-## 9. After recording: checks that fail this task most often
+## 5. What to rehearse first
 
-- **Video 15:00–45:59** (aim for about 28). Wait for Stopping, then Archiving, then Idle. Open `video.mp4` in QuickTime and spot-check the start, middle and end.
-- **Screenshots** more than 0.5 per second of video.
-- **Intro** under 20 s, with only the one sentence and the opening note shown.
-- **Windows:** no unused window covering over 25% of another. Minimize VS Code before showing Word, and Word before PowerPoint. File dialogs are fine.
-- **No AI on screen:** Copilot, Designer, Chat, suggestions. No Studio, Mercor or Metadata window. No name or avatar in Word or PowerPoint. No TaskRecorder or Insightful after the start.
-- **Narration:** under 220 words a minute, no silence over 45 s, every scroll and shortcut said. Never say "personal information".
-- Everything promised in the Goal appears on screen: fit, intersection, 70–110% and NPSH checks, cost comparison, memo with table and chart, PDF export, two-slide deck. If you cut anything, change the Studio text first (change request).
-- Fill Mac spec and display fields to match the recording actually made, then run both AutoQC checks, tick each manual box only after checking it, and tick the final box last.
-
-## 10. Add the next review to `Project_Odin_Review_Lessons.md`
-
-Copy its section 10 block when this task is reviewed.
+- Run the dry run in `SCRIPT.docx` once: it proves the kernel, the Word and PowerPoint menus, and that Export-to-PDF does not open Preview (a restricted app).
+- Do the typing speed test and the ampersand key test. The less-than and greater-than keys are never typed in this task.
+- Check that the memo fits on one page, because the script has you read "Page 1 of 1" aloud.
