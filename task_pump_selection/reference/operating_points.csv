@@ -1,0 +1,4 @@
+pump,flow_Ls,head_m,eff_pct,pct_of_bep,npsh_margin_m,shaft_kw,annual_cost,pass
+A,49.91,27.94,77.17,107.33,2.32,17.72,12761.51,True
+B,50.0,28.0,83.63,92.61,1.99,16.42,11824.03,True
+C,50.2,28.13,86.68,86.55,1.08,15.98,11505.38,False
