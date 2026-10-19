@@ -23,6 +23,8 @@ Everything below follows the approved text, `Project_Odin_Writer_Guidelines.md` 
 | `reference/pump_selection_solved.ipynb` | answer key, executed. **Do not record or submit this.** |
 | `reference/operating_points.csv`, `.png` | what your outputs should look like |
 | `Metadata.rtf` | filled in. Upload it separately, not in the zip |
+| `SCRIPT.md`, `SCRIPT.docx` | word-by-word narration, typed text and clicks for the whole recording |
+| `zips/` | `Odin_Pump_Task_Pack.zip` (everything), `PumpTask_working_folder.zip` (what goes on the Recorder Desktop), `Deliverables_starter.zip` (the four inputs, already named) |
 
 To run the notebook, keep `pump_curves.csv`, `pump_helpers.py` and the notebook in **one folder** (for example `PumpTask` on the Recorder user's Desktop).
 
@@ -68,44 +70,45 @@ System curve: `H = 12 + 0.0064 Q^2` (Q in L/s). Duty 50 L/s at 28 m. NPSH availa
 - [ ] No Studio, Slack, guidelines, Metadata.rtf or Drive tabs open. No file dialog should reveal a real name, so keep everything in `Desktop/PumpTask`.
 - [ ] TaskRecorder: signed in with the OTA account, permissions green, microphone on, **window dragged larger until the whole Goal is visible**, Used Apps filled. 1-minute audio test done.
 
-## 5. Recording script (about 17 minutes of script, so roughly 28 minutes of video)
+## 5. Recording plan (about 20 minutes of speaking; about 28 minutes of video)
 
-Say every scroll, every shortcut, and the where, what and why of every click. Pause one second after every click. Never say "here" or "this" alone. Stop recording silently at the end, and never narrate TaskRecorder.
+The word-by-word narration, typed text and every click are in **`SCRIPT.md`** (also `SCRIPT.docx`). Keep it on a second device or on paper, never on the recording Mac.
 
-| # | Min | App | What you do | Typed (what) |
-|---|---|---|---|---|
-| 0 | 0:20 | Word (opening note) | Say only: "I will be beginning my task soon. Here is the workflow I have in mind." Minimize the note. | none |
-| 1 | 2 | VS Code | Open the prepared notebook, run the import and `df.head(10)` cell, say what the columns and units are, then type the min/max check. Say the inputs are prepared files, royalty-free and copyright-free. | `df.groupby("pump").agg(["min", "max"])` |
-| 2 | 2 | VS Code | Explain why a quadratic fits a pump curve. Type the fit and report cells, and read the error table. | `fits = fit_all(df)` and `fit_report(df, fits)` |
-| 3 | 3 | VS Code | System curve: static head, and calibrate k from the duty point. Type the intersection line, then the hand check on pump B. Say the result out loud. | `static_head`, `k`, `system`; `roots = (f["head"] - system).roots`; the hand-check line |
-| 4 | 4 | VS Code | Constants (state each assumption). Complete four lines in the criteria loop: `q_bep`, `margin`, `kw`, `cost`. Run it, explain each column. Type the pass/fail rule and explain C. | the constants line; four loop lines; the pass/fail line |
-| 5 | 1.5 | VS Code | Run the save cell. Open `operating_points.png` and walk through the zoom panel. Type the two-sentence decision. | decision markdown (about 40 words) |
-| 6 | 3 | Word | Open the memo template window. Fill Purpose and Criteria in one line each. Type the 3-row table (5 columns). Insert the chart (Insert > Pictures > Picture from File). Type the recommendation. | about 60 words plus 15 table cells |
-| 7 | 1 | Word | File > Save As, set File Format to PDF, name it, and save the .docx too. Open the PDF check on screen. | none |
-| 8 | 2.5 | PowerPoint | Slide 1: Title Only layout, insert the chart. Slide 2: new slide, 3-row table plus the recommendation line. Save as .pptx. | 2 titles, 9 table cells, 1 line |
-| 9 | 0.5 | PowerPoint | Final read-through of both slides, then silent stop. | none |
+| Scene | Minutes | App | What happens |
+|---|---|---|---|
+| 0 | 0:15 | Word (opening note) | Start, minimize TaskRecorder, say only the one intro sentence, minimize the note |
+| 1 | 3 | VS Code | Open notebook, explain the prepared inputs, run the load cell, check ranges |
+| 2 | 2 | VS Code | Fit quadratic curves and read the fit error |
+| 3 | 3 | VS Code | System curve, operating points, hand check on pump B |
+| 4 | 5 | VS Code | Constants, four formulas, pass/fail, judgement |
+| 5 | 2 | VS Code | Save table and chart, check them, save the notebook |
+| 6 | 5 | Word | Memo text, table, chart, save .docx, export PDF, confirm both files exist |
+| 7 | 3 | PowerPoint | Two slides, save .pptx |
+| 8 | 0:30 | none | Wrap-up, then a silent stop |
 
-Narration example for step 3: "I'll click the empty cell under 'System curve and operating points', then type the line that subtracts the system curve from pump B's head fit. I'm doing this because the operating point is where the two heads are equal, so the roots of the difference give the flow."
+**Do not open the PDF in Preview.** Preview is a restricted app. Confirm the PDF exists through Word's File > Open list, as the script does.
 
-## 6. Typing plan (target under 15%; limit is 20%)
+## 6. Typing plan (target about 15%; limit 20%)
 
-About 25 short lines of code (about 90 s), about 60 words in Word (about 90 s), the 15-cell table (about 45 s), and the deck text (about 60 s). That is about 4.5 minutes out of 28.
+About 355 characters of code in 12 short placeholders (about 1.4 minutes), about 77 words in Word (about 1.5 minutes), the 20-cell memo table (about 40 seconds), and the deck text (about 45 seconds). That is about 4.5 minutes of a 28-minute video.
 
 - Keep every burst **under 30 s**. Between bursts, review and point at what you typed.
-- Rehearse once with a stopwatch. If the rehearsal is over 15%, copy numbers instead of retyping them. Say each shortcut aloud ("Command plus C").
+- Rehearse once with a stopwatch. If it is over 15%, shorten the Word sentences, never the engineering lines.
 - Mouse idle never over 20 s, and keep moving the pointer along the table while code runs.
 
-## 7. Word memo and PowerPoint text (keep it this short)
+## 7. Memo and deck text (matches the script and the notebook output)
 
 **Word (one page):**
-- Purpose: Select a replacement pump for the chilled-water loop (duty 50 L/s at 28 m).
-- Criteria: Operating flow 70–110% of best-efficiency flow, NPSH margin at least 1.5 m (6.0 m available), annual energy cost at 6,000 h and $0.12/kWh.
-- Table: Pump | % of BEP flow | NPSH margin (m) | Annual cost | Result, with rows A 107%, 2.3, $12,762, Pass; B 93%, 2.0, $11,824, Pass; C 87%, 1.1, $11,505, Fail.
-- Recommendation: Buy pump B. It passes both criteria and is the cheapest pump that does. Pump C costs $319 a year less but its 1.1 m margin is below 1.5 m, which risks cavitation. Pump A is the runner-up, $938 a year more than B. Approval requested to order pump B.
+- Purpose: Select a replacement pump for the chilled-water loop; duty is 50 L/s at 28 m.
+- Criteria: Flow 70 to 110% of best-efficiency flow; NPSH margin at least 1.5 m; cost at 6,000 h and $0.12 per kWh.
+- Table, 5 columns by 4 rows: Pump | % of BEP flow | NPSH margin (m) | Annual cost | Result. Rows: A 107%, 2.32, $12,762, Pass; B 93%, 1.99, $11,824, Pass; C 87%, 1.08, $11,505, Fail (NPSH).
+- Recommendation: Buy pump B: it passes both criteria and is the cheapest pump that does. Pump C is $319 a year cheaper but fails the NPSH margin, so it risks cavitation. Pump A is the runner-up, $938 a year more than B.
 
 **PowerPoint:**
-- Slide 1 title: "Pump B meets duty at 50 L/s". Body: the chart image.
-- Slide 2 title: "Pump B is the lowest-cost pump that passes". Table: Pump | Annual cost | Result (A $12,762 Pass; B $11,824 Pass; C $11,505 Fail NPSH). Line: "Recommend B; A is the runner-up."
+- Slide 1 title: "Pump B meets the 50 L/s duty". Body: the chart image.
+- Slide 2 title: "Pump B is the lowest-cost pump that passes". Table, 3 columns by 4 rows: Pump | Annual cost | Result (A $12,762 Pass; B $11,824 Pass; C $11,505 Fail (NPSH)). Text box: "Recommend pump B; pump A is the runner-up."
+
+Saved file names on the Recorder Desktop: `recommendation memo.docx`, `recommendation memo.pdf`, `approval deck.pptx`, in the `PumpTask` folder.
 
 ## 8. Deliverables.zip (name with spaces, keep extensions)
 
@@ -117,7 +120,7 @@ Build it **after** recording, from copies. Rename only the copies, so the notebo
 | `input 2.py` | `pump_helpers.py` |
 | `input 3.ipynb` | the blank skeleton notebook |
 | `input 4.docx` | `memo_template.docx` (blank) |
-| `final output 1.ipynb` | your executed notebook |
+| `final output 1.ipynb` | your executed notebook (the one you saved with Command plus S) |
 | `final output 2.csv` | `operating_points.csv` |
 | `final output 3.png` | `operating_points.png` |
 | `final output 4.docx` | your memo |
