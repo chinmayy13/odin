@@ -1,5 +1,7 @@
 # Restricted Apps
 
+> **Superseded.** Many apps listed here are now allowed (for example Excel, PowerPoint, Terminal, Chrome, Safari, Preview). For the current banned and limited-use apps, see `App_Policy.md` (effective 16 Oct 2026 18:08 PDT). This list is kept for reference only.
+
 Complete list of the **130 apps** marked `RESTRICTED` in the screenshots, sorted alphabetically.
 
 Each entry appears in the source list as `RESTRICTED <app name>`; the prefix is dropped below and names are kept exactly as written (e.g. both `TradingView` and `Trading View`, `Gemini` and `Google Gemini`, `godot` and `Godot Engine` are separate entries).

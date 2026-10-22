@@ -1,5 +1,7 @@
 # Allowed Apps
 
+> **Superseded.** The approved-app list is retired. For the current banned, limited-use and allowed-with-alternatives apps, see `App_Policy.md` (effective 16 Oct 2026 18:08 PDT). This list is kept for reference only.
+
 Complete list of the **322 allowed apps** shown in the three screenshots, sorted alphabetically (the screenshots overlap, so each app is listed once).
 
 Names are kept exactly as they appear in the screenshots, including unusual spellings and notes such as `(NOT via Chrome)`. Near-duplicates (for example `Obsidian` and `Obisidian`, `R` and `R Studio` and `RStudio`, or the several Draw.io / diagrams.net variants) are separate entries in the source list.
