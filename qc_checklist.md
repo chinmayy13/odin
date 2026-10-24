@@ -44,7 +44,7 @@ Select: 1 = Yes, 4 = No
 Video spot check. Verify this yourself against the recording.  
 Select: 1 = Yes, 2 = 21-60 s, 4 = >60s
 
-**Selected: 2 — AutoQC: 22.7 s (21–60 s band). PENDING confirm: if the Goal was recited until 1:07 this becomes 4.**  
+**Selected: 2 — AutoQC: 22.7 s (21–60 s band). Task work starts when Finder opens at 0:32, so the intro cannot exceed ~32 s.**  
 
 9. [Automated but PLEASE manually check] Filling out Metadata.rtf is not shown in the recording.*  
 Automated check. Look at the AutoQC card and any writer dispute, check the recording, and score on the ranges below.  
