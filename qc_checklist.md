@@ -74,25 +74,25 @@ Select: 1 = Yes, 2 = No, background noise 30–40% of the narration, 4 = No, bac
 Video spot check. Verify this yourself against the recording; the writer ticked it on the task page.  
 Select: 1 = Yes, 4 = No
 
-**Selected: PENDING (recommend 1) — TaskRecorder shown only at start/stop; decide the Insightful pop-up at 00:22 (17 s, writer disputed) first.**  
+**Selected: 1 — TaskRecorder shown only at start/stop. Insightful pop-up at 00:22 (17 s) treated as a growth note, not a failure.**  
 
 15. [Manual] The recording is free of disallowed AI use. Ordinary incidental enhancement may be acceptable; substantive AI task tools are not automatically allowed. Follow the detailed AI guidance and escalate unclear cases.*  
 Content. Verify this yourself against the recording; the writer ticked it on the task page.  
 Select: 1 = Yes, 2 = No, Google AI Overview (no follow-ups), autocomplete, SWE/ML, 4 = No, AI interaction present
 
-**Selected: PENDING (recommend 1) — no AI use noted; confirm.**  
+**Selected: 1 — no AI use.**  
 
 16. [Manual] The recording is free of personal information (PII), both on screen and in the audio.*  
 Content. Verify this yourself against the recording; the writer ticked it on the task page.  
 Select: 1 = Yes, 4 = No
 
-**Selected: PENDING — check Firefox address bar (~1:33–2:38), Google Docs account corner, Finder sidebar/paths, 'irmbpo.local' host in the PDF header, last minutes. Studio/Mercor URLs alone do not block.**  
+**Selected: 1 — Reviewer found no PII.**  
 
 17. [Manual] Deliverable assets meet the applicable licensing requirements. Apply the PII and Copyright Issues guidance, including public-repository exceptions; merely browsing a website with a trademarked logo does not fail.*  
 Content. Verify this yourself against the recording; the writer ticked it on the task page.  
 Select: 1 = Yes, 4 = No
 
-**Selected: PENDING (escalate to EPM if unclear) — input 1.zip looks like Splunk tutorial data, dated Oct 21 (unchanged since Round 1, which scored 4). Check Final Notes for a source.**  
+**Selected: 1 — Reviewer confirmed licensing is fine.**  
 
 18. [Manual] The narration and everything on screen are free of profanity.*  
 Content. Verify this yourself against the recording; the writer ticked it on the task page.  
@@ -115,13 +115,13 @@ Select: 1 = Yes, the required epilogue is present and no longer than 4:00, 2 = N
 Content. Verify this yourself against the recording.  
 Select: 1 = Yes, 2 = A non-expert can do <10% of actions, 4 = No, a non-expert can do >10% of the actions
 
-**Selected: PENDING (lean 2) — ~80 s of typed SPL (10:20–11:40) suggests real work; use 4 only if the rest was a tutorial-style click-through a non-expert could do (>10% of actions).**  
+**Selected: 2 — SPL queries typed live (10:20–11:40) show domain work.**  
 
 ---
 
 ## Review notes (Round 2, Splunk ingestion task, video 24:04)
 
-**Tentative outcome:** approve with growth notes, provided items 13, 16, 17 and 21 come back clean. Suggested Writer's Quality Score: 4 (3 if you treat items 3, 4 and 8 as edge cases).
+**Final outcome:** approve with growth notes. Writer's Quality Score: 4. No items at band 4.
 
 **Round 1 issues re-checked**
 - Audio cut-off and silence over 60 s: fixed (longest silence 16.9 s).
