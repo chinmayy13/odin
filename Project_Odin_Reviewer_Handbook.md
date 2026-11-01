@@ -28,7 +28,7 @@ Use the tabs below to find each part of the workflow.
 
 ![](images/p002_1.png)
 
-> *Text shown in the image:* The goal of Project Odin is to produce training data for a frontier AI model. Specifically, this data will capture realistic, professional macOS workflows to show how real users interact with applications, menus, and macOS system behaviors.
+> *Text shown in the image:* Image placeholder: a black rectangle with a thin red-brown X drawn corner to corner (the image did not render in the source PDF; no other content is visible).
 
 # Your Role
 
@@ -57,23 +57,25 @@ This list is updated whenever something in this guide changes. **Please review i
 |   |   |
 |---|---|
 | **Date** | **Details of changes** |
+| Oct 30, 2026 | 🟩 Clarified that reviewers and auditors assess and correct the final file in Metadata.rtf Upload. |
+| Oct 29, 2026 | 🟩 Quick review now has 6 dimensions: added licensing (no Canva library or stock-site assets, stock MIDI or video, copied website text or unsourced assets). Applies to quick reviews from Oct 29, 2026. Issues QC finds outside the quick review dimensions are not counted against the quick reviewer. Full review item 4 now fails when deliverables.zip is missing an input file used in the task or the final output.<br>🟩Review limit is now 3 per task - writers have until October 30th, 11:59 PM PT to submit their final revision if they are already past their third review |
 | Oct 28, 2026 | 🟩 New format for Reviewer Handbook. Consolidated all reviewer documents into this single source of truth. |
 | Oct 27, 2026 | 🟩 [October 27 quality alignment](https://docs.google.com/spreadsheets/d/17i84NYjpjP4FErjdSH2xrllHd4PhZnY5DosSvJzk-oc/edit#gid=0): intro length, silence duration and click pacing removed from reviewer scoring. Intro and silence remain in AutoQC but never block approval. Minor non-English content on screen is acceptable; narration must be fully in English.<br>🟩 Reviewers can write tasks when review queue is clear. Do not track time while writing. Pay is a flat rate $100 + $2/minute for each RFD task. |
 | Oct 26, 2026 | 🟩 Poor window management can cause sendback; same-app dialogue box is still an exception<br>🟩 Bottom dock alone should not trigger a send-back as long as at least one UI element has been changed |
-| Oct 25, 2026 | 🟩 New 3 band checklist (1=ideal, 2=tolerable, 3=fail). Send back with anything marked 3.<br>🟩 Historical intro timing guidance, superseded October 27: intro length is now advisory only and never blocks approval.<br>🟩 Missing epilogue not a sendback reason<br>🟩 If Metadata.rtf has an issue, fix rather than sendback<br>🟩 Updated Quick review eligibility, checklist, timing<br>🟩 Maximum of 4 reviews per task<br>🟩 Claim timing: finish reviews within about an hour; use Extend Review Claim if needed. Tasks held over 2 hours may be released.<br>🟩 Onboarding pay and hour limits for reviewers follow your individual invitation. |
+| Oct 25, 2026 | 🟩 New 3 band checklist (1=ideal, 2=tolerable, 3=fail). Send back with anything marked 3.<br>🟩 Historical intro timing guidance, superseded October 27: intro length is now advisory only and never blocks approval.<br>🟩 Missing epilogue not a sendback reason<br>🟩 If Metadata.rtf has an issue, fix rather than sendback<br>🟩 Updated Quick review eligibility, checklist, timing<br>🟩 Maximum of 4 reviews per task 🟩 Claim timing: finish reviews within about an hour; use Extend Review Claim if needed. Tasks held over 2 hours may be released.<br>🟩 Onboarding pay and hour limits for reviewers follow your individual invitation. |
 | Oct 22, 2026 | 🟩 Reviewer guidelines FULLY UPDATED with new details - please read through the entire document and pay close attention to your role’s respective checklists |
 | Oct 20, 2026 | 🟩 Reviewer and QC checklist are now aligned<br>🟩Reviewer Checklist: every item now states its fail point in option 4. \[Automated\] items are scored on the same 1–4 ranges as manual items.<br>🟩 Studio, Airtable, Mercor and Project Odin being mentioned (item 17) is now OK in the recording and no longer blocks approval.<br>🟩 Metadata.rtf (item 1): fails when it is under 70% similar to the TaskRecorder Goal or Studio.<br>🟩 Window overlap (item 2): 6–30 s = option 2; over 30 s with no clear effort to fix within time = option 4.<br>🟩 What / Where / Why (item 3): fails when under 70% of actions have at least 2 of the 3 Ws. An action is anything that changes the state of the document.<br>🟩 Eyes Closed (item 4): 4 or more ambiguous references is edge case. A 2+ minute stretch narrated mostly with "here" and "this" fails.<br>🟩 Historical intro-length scoring (former item 8), superseded October 27: removed from reviewer scoring; AutoQC findings are never blocking.<br>🟩 Metadata.rtf shown (item 9): up to 10 s is edge case; over 10 s fails.<br>🟩 Typing (item 10): fails over 25% (over 35% for Coding / Content & Writing).<br>🟩 Historical silence scoring (former item 11), superseded October 27: removed from reviewer scoring; AutoQC findings are never blocking.<br>🟩 Background noise (item 12): 30–40% of narration = option 2; option 3 = N/A; over 40% fails (option 4).<br>🟩 Profanity (item 18): minor on-screen profanity not typed by the writer = option 2 and does not block approval; profanity said or typed by the writer, or more than minor on-screen profanity, fails (option 4).<br>🟩 Domain expertise (item 23): fails when a non-expert could do more than 10% of the actions.<br>🟩 Pace (item 24): 10–15% of the video above 220 WPM is edge case; over 15% fails.<br>🟩Missing epilogues DO NOT FAIL tasks regardless of approval date |
 | Oct 19, 2026 | 🟩 Clarified that CC0, public domain, copyright, royalty free issues only apply to information that ends up in the deliverable.zip. Browsing websites with logos doesn’t violate our terms.<br>🟩Clarified that while ideally project information is hidden (e.g., references to Mercor, Project Odin, Studio Instructions), they will be tolerated in small quantities and should not lead to task rejection on its own.<br>🟩 Historical announcement — epilogue-length disposition superseded. Epilogue narration requirements: All task ideas originally approved at or after Oct 19, 2026 6PM PT must include an epilogue narration (target: 3-4 mins; maximum: 4:00; longer epilogues may be sent back) which serves as a brief reflection of the work. See [here](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?tab=t.nvo0dh78tkt4) for more details Current reviewer rule: over 4:00 is band 2 (nonfailing) and does not require a send-back on its own.<br>🟩Reviewer acceptance is up to 54:59 total, including intro and epilogue. Writer recording guidance remains no more than 50:59; the higher acceptance limit is not a writer target. |
 | Oct 17, 2026 | 🟩 Historical, superseded reviewer-writing arrangement: Clarified Insightful and pay for reviewers who write tasks (Getting Started). Promoted reviewers keep Insightful running and stay hourly while writing; directly hired reviewers do not run Insightful while writing. These historical terms are superseded. Under the October 27 arrangement, reviewers may write when no review work is available, with Insightful off; see [Pay & time](#onboarding-steps). |
 | Oct 16, 2026 | App-policy update (effective 2026-10-16 18:08 PDT): Historical restriction entries below, including the blanket TextEdit ban, are [superseded by the canonical three-category app list. TextEdit may be](https://odin-mercor1.vercel.app/validated-apps) used for metadata.rtf; separate opening-Goal instructions remain unchanged. In-flight work is protected and now-allowed app rejections may be reconsidered subject to other quality checks. |
-| Oct 14, 2026 | 🟩 Added the following apps to the restricted app list - all tasks submitted before 10/14 5PM PST should be approved if their only failure mode was a restricted app on this list:<br>1. anatomyapp<br>2. Autodesk FBX Review<br>3. Defold<br>4. drawBook<br>5. FL Studio / FruitLoops Studio<br>6. GameMaker<br>7. JASP<br>8. KiCad<br>9. LTspice<br>10. Milanote<br>11. MohrPlotter<br>12. OpenVSP<br>13. Penpot<br>14. qemu-system-aarch64<br>15. Sticky Notepad<br>16. Substance 3D Stager<br>17. TextExpander 18. VMD |
+| Oct 14, 2026 | 🟩 Added the following apps to the restricted app list - all tasks submitted before 10/14 5PM PST should be approved if their only failure mode was a restricted app on this list:<br>1. anatomyapp<br>2. Autodesk FBX Review<br>3. Defold<br>4. drawBook<br>5. FL Studio / FruitLoops Studio<br>6. GameMaker<br>7. JASP 8. KiCad 9. LTspice 10. Milanote 11. MohrPlotter 12. OpenVSP 13. Penpot 14. qemu-system-aarch64 15. Sticky Notepad 16. Substance 3D Stager 17. TextExpander 18. VMD |
 | Oct 14, 2026 | 🟩 Added “If the Reviewer raised the complexity issue in R1 and the writer didn’t fix it, then R2 can send back.”<br>🟩 Added DM templates |
 | Oct 13, 2026 | 🟩 Added “The goal is to leave 1-2 sentences of feedback”<br>🟩 Added New Reviewer info: Run Insightful and Device Requirements |
 | Oct 12, 2026 | 🟩 TextEdit is now fully restricted, including for filling out Metadata.rtf: the restricted app list entry “FOR METADATA.RTF ONLY - TextEdit.app” was changed to “TextEdit.app” (Odin Production Full Workflow world). |
 | Oct 12, 2026 | 🟩 Full Facelift |
 | Oct 11, 2026 | 🟩 Added the following apps to the restricted app list (Odin Production Full Workflow world):<br>1. Adobe Express<br>3. Google Gemini<br>4. Google Play<br>5. Kali Linux<br>6. Screenshot<br>7. Splice<br>8. Steam<br>9. Trading View<br>10. WPS Office |
-| Oct 10, 2026 | 🟩 Added the following apps to the restricted app list (Odin Production Full Workflow world):<br>1. Adobe Acrobat<br>2. Adobe After Effects<br>3. Adobe Illustrator<br>4. Adobe InDesign<br>5. Adobe Premiere Pro<br>6. Antigravity IDE<br>7. App Store.app<br>8. Apple Music Classical<br>9. Cisco Packet Tracer<br>10. CleanMyMac X<br>11. Complete Anatomy 12. Dictionary.app 13. Font Book.app 14. Games.app 15. GoodNotes 16. GraphPad Prism 17. Linear 18. Magnet 19. Maps.app 20. Mendeley 21. Microsoft Intune 22. Microsoft Store 23. Microsoft Support 24. Music.app 25. News.app 26. NVivo 27. Paprika Recipe Manager 28. Parallels Desktop 29. PDFgear 30. Podcasts.app 31. Shazam 32. Siri.app 33. SnapGene 34. Spotify 35. Substance 3D Painter 36. TradingView 37. UCSF Chimera 38. Wolfram Mathematica |
-| Oct 4, 2026 | 🟩 Added the following apps to the restricted app list (Odin Production Core world):<br>1. Apple Compressor<br>2. Apple Motion<br>3. Final Cut Pro<br>4. iMovie<br>5. Keynote<br>6. Logic Pro<br>7. MainStage 8. Pages |
+| Oct 10, 2026 | 🟩 Added the following apps to the restricted app list (Odin Production Full Workflow world):<br>1. Adobe Acrobat 2. Adobe After Effects 3. Adobe Illustrator 4. Adobe InDesign 5. Adobe Premiere Pro 6. Antigravity IDE 7. App Store.app 8. Apple Music Classical 9. Cisco Packet Tracer 10. CleanMyMac X 11. Complete Anatomy 12. Dictionary.app 13. Font Book.app 14. Games.app 15. GoodNotes 16. GraphPad Prism 17. Linear 18. Magnet 19. Maps.app 20. Mendeley 21. Microsoft Intune 22. Microsoft Store 23. Microsoft Support 24. Music.app 25. News.app 26. NVivo 27. Paprika Recipe Manager 28. Parallels Desktop 29. PDFgear 30. Podcasts.app 31. Shazam 32. Siri.app 33. SnapGene 34. Spotify 35. Substance 3D Painter 36. TradingView 37. UCSF Chimera 38. Wolfram Mathematica |
+| Oct 4, 2026 | 🟩 Added the following apps to the restricted app list (Odin Production Core world):<br>1. Apple Compressor<br>2. Apple Motion<br>3. Final Cut Pro<br>4. iMovie<br>5. Keynote<br>6. Logic Pro<br>7. MainStage<br>8. Pages |
 
 # Reviewer Onboarding
 
@@ -316,8 +318,8 @@ Project Odin has 3 different types of reviews. The general process for each of t
 | **Review Type** | **What it is** | **Where to find it** |
 |---|---|---|
 | Idea | Reviews initial ideas before the writer starts recording. | Review Queue |
-| Full | Tasks that require all 17 dimensions to be reviewed. | Prioritized Review Queue |
-| Quick | Shorter reviews that only have 5 dimensions to check. | Quick Review Queue |
+| Full | Tasks that require all 14 dimensions to be reviewed. | Prioritized Review Queue |
+| Quick | Shorter reviews that only have 6 dimensions to check. | Quick Review Queue |
 
 💡**On probation? Full or Quick Reviews only!**
 
@@ -378,13 +380,15 @@ When conducting full reviews, check several dashboards. Always check in this ord
 - Prioritized Review Queue- Higher priority tasks.
 - Review Queue- The normal review queue.
 
-On the right side of the page, inside the task, you’ll score 17 dimensions as either 1 (ideal), 2 (acceptable), or 3 (failing). Please see <u>Reviewer Checklist</u> for more details on how to score each dimension.
+On the right side of the page, inside the task, you’ll score 14 dimensions as either 1 (ideal), 2 (acceptable), or 3 (failing). Please see <u>Reviewer Checklist</u> for more details on how to score each dimension. For metadata, review the file in Metadata.rtf Upload.
 
-- Make sure you open and review all of the input files.
+- Make sure you download the Deliverables.zip file and open and review all of the input files.
+    - Confirm every input, artifact, and final output seen on screen is in it
+    - AutoQC only checks file names
 
-    ![](images/p025_1.png)
+        ![](images/p025_1.png)
 
-    > *Text shown in the image:* Review tab — REVIEW FEEDBACK. Review checklist — “Score every item against the Reviewer Checklist:” (link to the Reviewer Checklist document). 1 = Ideal state · 2 = Within acceptable tolerance · 3 = Failing tolerance. “One item at band 3 sends the task back, except Metadata.rtf (item 1), which you fix yourself. Items at band 2 are feedback only. Writers never see bands: in your feedback, point at the ideal state. Select ‘I understand’ to proceed.” [I understand]. **1. Metadata.rtf matches the TaskRecorder Goal (apps, workflow)** — “This item should NOT send a task back; if Metadata.rtf is wrong, fix it yourself, re-upload it, and DM the writer (and the reviewer, if you are auditing). AutoQC checks the file name, leftover template text, numbered steps, Topology tags, and that the Request is at least 70% similar to the TaskRecorder Goal. It does not compare apps, so check those yourself.” Dropdown: “1 = The Request matches the TaskRecorder Description word for word, and the apps …”. **2. No window covers >25% of another for >6 s** — “Popups, menus and dialogs inside a window or app are fine while in use, but a window can’t cover another window, including another window of the same app (for example two Chrome windows or two Word documents). For any call, note the timestamp and the two windows involved. AutoQC flags only overlap over 30 s, so check 6-30 s and any cover over the content being worked on yourself.” Dropdown: “1 = No window covers >25% of another for >6 s, and nothing covers the content bei…”. **3. Narration says what and where for each action, and why when useful** — “Eyes-closed test: with your eyes closed, could you follow which actions are being performed? An action is anything that selects something or changes the state of the app. Example with all three: “I’ll click the blue Export button in the top right to save the chart as a PDF.” Vague words like “here” or “this” only fail when there’s a 2+ minute stretch of them. AutoQC flags only under 70% with 2 of the 3 Ws, so it can pass narration with what and why but no where: check where yourself.” Dropdown: “1 = ≥70% of actions have what, where and why”. **[Retired] 4. [Automated but PLEASE manually check] Eyes closed test: Viewer clearly understands what actions are being performed in the video with eyes closed (no ‘click here’, ‘change this’)** — “Automated check. Look at the AutoQC card and any writer dispute, check the recording, and score on the ranges below.”
+        > *Text shown in the image:* Review tab — REVIEW FEEDBACK. Review checklist — “Score every item against the Reviewer Checklist:” (link to the Reviewer Checklist document). 1 = Ideal state · 2 = Within acceptable tolerance · 3 = Failing tolerance. “One item at band 3 sends the task back, except Metadata.rtf (item 1), which you fix yourself. Items at band 2 are feedback only. Writers never see bands: in your feedback, point at the ideal state. Select ‘I understand’ to proceed.” [I understand]. **1. Metadata.rtf matches the TaskRecorder Goal (apps, workflow)** — “This item should NOT send a task back; if Metadata.rtf is wrong, fix it yourself, re-upload it, and DM the writer (and the reviewer, if you are auditing). AutoQC checks the file name, leftover template text, numbered steps, Topology tags, and that the Request is at least 70% similar to the TaskRecorder Goal. It does not compare apps, so check those yourself.” Dropdown: “1 = The Request matches the TaskRecorder Description word for word, and the apps …”. **2. No window covers >25% of another for >6 s** — “Popups, menus and dialogs inside a window or app are fine while in use, but a window can’t cover another window, including another window of the same app (for example two Chrome windows or two Word documents). For any call, note the timestamp and the two windows involved. AutoQC flags only overlap over 30 s, so check 6-30 s and any cover over the content being worked on yourself.” Dropdown: “1 = No window covers >25% of another for >6 s, and nothing covers the content bei…”. **3. Narration says what and where for each action, and why when useful** — “Eyes-closed test: with your eyes closed, could you follow which actions are being performed? An action is anything that selects something or changes the state of the app. Example with all three: “I’ll click the blue Export button in the top right to save the chart as a PDF.” Vague words like “here” or “this” only fail when there’s a 2+ minute stretch of them. AutoQC flags only under 70% with 2 of the 3 Ws, so it can pass narration with what and why but no where: check where yourself.” Dropdown: “1 = ≥70% of actions have what, where and why”. **[Retired] 4. [Automated but PLEASE manually check] Eyes closed test: Viewer clearly understands what actions are being performed in the video with eyes closed (no ‘click here’, ‘change this’)** — “Automated check. Look at the AutoQC card and any writer dispute, check the recording, and score on the ranges below.”
 
 As with all review types, you can select whether to approve, send for edits, or reject a task at the bottom on the right side, with these buttons:
 
@@ -394,13 +398,13 @@ As with all review types, you can select whether to approve, send for edits, or 
 
 💡**When to reject**
 
-You should rarely reject tasks- this will discard them. Reject should be used only when **explicitly** instructed; in the vast majority of cases, you will send it for edits instead. Tasks can only be reviewed 4 times. After the 4th review, if it is not approved, reject it instead of sending it back.
+You should rarely reject tasks- this will discard them. Reject should be used only when **explicitly** instructed; in the vast majority of cases, you will send it for edits instead. Tasks can only be reviewed 3 times. After the 3rd review, if it is not approved, reject it instead of sending it back.
 
 # Quick review
 
 Some tasks will be routed to the Quick review queue. Quick review is a more focused review process that targets the main areas that AutoQC misses.
 
-These tasks only have 5 dimensions that need to be reviewed:
+These tasks have 6 dimensions to review: Metadata.rtf Upload, window management, narration, task match, personal information and licensing.
 
 ![](images/p027_1.png)
 
@@ -409,8 +413,12 @@ These tasks only have 5 dimensions that need to be reviewed:
 These operate on a simpler tagging system instead of scoring from 1-3.
 
 - Check each dimension carefully and select ‘Pass’ or ‘Needs edits’, based on the guidance in the <u>Reviewer Checklist</u> section.
-- Also review the [AutoQC checks](#autoqc-coverage-for-reference) on every task, and any disputes written by the writers.
-- If you notice other issues that would warrant sending the task back, please send it for edits, even if they are outside the 5 dimensions checked.
+- Also review the AutoQC checks on every task, and any disputes written by the writers.
+- Open deliverables.zip: every downloaded asset needs a CC0, public domain or Gemini-generated source in Final Notes. AutoQC does not check licensing, and an asset from the Canva library or a stock site (Pixabay, Pexels, Unsplash and similar) is a send-back.
+- If you notice other issues that would warrant sending the task back, please send it for edits, even if they are outside the 6 dimensions checked. Issues
+
+    QC finds outside these 6 dimensions are not counted against the quick reviewer.
+
 - These should be faster- ideally 30-40 minutes or less.
 
 # Completing your review
@@ -465,7 +473,7 @@ Keep in mind what AutoQC is good at, and focus your attention elsewhere.
 
 Other ways to save time:
 
-- Start loading the video as soon as you claim the task. Do the Goal and metadata check while it buffers.
+- Start loading the video as soon as you claim the task. Check the Goal and Metadata.rtf Upload while it buffers.
 - Use AutoQC flag timestamps to go straight to the moment in question.
 - Keep feedback short. One line per issue with a timestamp and the fix.
 - Pay attention to narration! Watch for vague words like "this", "that", "here".
@@ -480,6 +488,297 @@ To assist with your review of the video, try using live captions! Click the thre
 Narration is by far the most common quality issue. It is the top reason writers get sent back, and the top issue QC finds in tasks reviewers approved. Give it most of your attention.
 
 Does it explain **what** is happening, **where** on screen, and **why**? Would it pass the eyes-closed test (could you follow along without seeing the screen)?
+
+# QC audits
+
+Use this workflow when you are assigned to QC. Audit the task and the reviewer’s work, complete the full checklist, and leave feedback that lets the writer fix all required issues in one pass.
+
+<u>Reviewer Checklist</u> · [QC audit channel](https://mercor.enterprise.slack.com/archives/C0CCNF5AT5W)
+
+# Claim and complete a QC audit
+
+\1. Claim a task from Awaiting Final QC. It moves to In QC Review. Finish the audit in one sitting where possible; follow current queue assignments from your lead. 2. Watch the full recording and review the input files, deliverables, Metadata.rtf Upload, AutoQC results and any disputes. Complete the entire QC even if you find a send-back issue early. The review efficiency shortcut does not replace a full QC audit.
+
+\3. Score every item below against the recording and files. Use AutoQC as evidence to verify, not as the verdict. Judge narration clarity at 1× speed and use the reported AutoQC typing percentage and task type for item 7.
+
+\4. Compare the reviewer’s checklist, decision and feedback with your findings. Correct editable file issues yourself where the checklist permits it. Record reviewer coaching in Internal Notes and DM the reviewer; flag repeated misses to an EPM.
+
+\5. Enter the bands in the Review checklist card, then complete Writer’s Quality Score, Feedback and, when sending for edits, Needs edits reason. Writer’s Quality Score is a separate 1–5 scale: 1 is worst and 5 is best; it is not the checklist’s 1/2/3 tolerance scale. Save complete writer-facing feedback, send the required writer DM, and choose QC Approved, Needs QC Revision or Rejected as appropriate. Check the resulting status. If you need extra time for a blocker, check with an EPM and use Extend Review Claim.
+
+## QC checklist — the same 14 items as reviewer checks
+
+Use the same item order, tolerance bands and exceptions as <u>06. Reviewer Checklist</u>. The table below reproduces that checklist. Its additional privacy, licensing, AI and file guidance also applies.
+
+1 = ideal state; 2 = within acceptable tolerance; 3 = failing tolerance. Binary rows allow 1 or 3 only. Any failing item requires edits except item 1: fix Metadata.rtf yourself and replace it in Metadata.rtf Upload. Item 14 has no failing band; a missing epilogue uses the unscored “Missing epilogue — does not block approval” response.
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+| **Checklist item** | **1 = Ideal state** | **2 = Within acceptable tolerance** | **3 = Failing tolerance** | **Notes** |
+| 1. Metadata.rtf matches the TaskRecorder Goal (apps, workflow). | The metadata.rtf Request matches the TaskRecorder Description word for word, and the apps in the Task Description and TOPOLOGY fields match the TaskRecorder apps. | The Request wording differs but keeps every key idea, and the apps match. | Key ideas differ, or the apps do not match. | If this scores a 3, do not send the task back.<br>**Correct the file yourself and replace it in Metadata.rtf Upload.** |
+| 2. The content being worked on remains visible. | No window covers >25% of another for >6 s, and no window covers any part of the content being worked on. | A window covers >25% of another for 6-30 s, and no window covers any part of the content being worked on. | A window covers >25% of another for >30 s, or a window covers any part of the content being worked on. | Minor window overlap alone is not an error and does not require edits or a re-record. Two tabs belonging to one window of the same app are not separate windows. For any call, note the timestamp and the two windows involved. |
+| 3. Narration says what and where for each action, and why when useful. | ≥70% of actions have all 3 Ws (what, where, why). | ≥70% of actions have what and where (why optional). | Under 70% of actions have what and where. Missing where fails. (A narration with what and why, but no where, now fails.) | Eyes-closed test: with your eyes closed, could you follow which actions are being performed? An action is anything that selects something or changes the state of the app. Example with all three: “I'll click the blue Export button in the top right to save the chart as a PDF.” |
+| 4. Screen recording shows the workflow described in the task. | All major actions stated in the task are in the video, and deliverables.zip has every input file used and the final output. | N/A | The video is missing 1+ major action stated in the task, or deliverables.zip is missing an input file used in the task or the final output. | A major action is a step in the task's numbered description, or a step that creates part of the deliverable. An input file is one the writer opened or used in the task; websites visited only for research don't count. AutoQC only checks file names, so open deliverables.zip and compare it with the recording. |
+| 5. The menu bar clock shows seconds at the start and end of the video. | Yes | N/A | No | Check the first and last few seconds; it doesn't need to be visible in between. |
+| 6. The Goal document (task description) is shown at the start of the recording, then promptly minimized. | Yes | N/A | No | The Goal document can’t be shown in Notes.app or TextEdit; Preview and other apps are fine. |
+| 7. Typing takes up 25% of the video or less (35% or less for Coding / Content & Writing tasks). | ≤25% of the video (≤35% for Coding / Content & Writing) | N/A | >25% of the video (>35% for Coding / Content & Writing) | Use the AutoQC typing % and task type; do not estimate by hand. |
+| 8. The narration can be understood on first listen.<br>Background noise, mumbling, speaking too fast, a strong accent or broken English only matter when they get in the way of understanding the video. Loud typing is fine if the narration stays clear. | You can follow everything the writer says without replaying. | N/A | You have to replay or guess to understand what is happening in the video, because of noise, mumbling, pace or unclear speech. | Tip: turn on Chrome Live Caption (Chrome Settings > Accessibility > Live Caption) and play the video. **If the captions pick up what the writer is saying, that is a good sign it is clear.** Many auditors have found this helpful. Judge clarity at 1x speed. |
+| 9. The recording is free of disallowed AI use. | No AI used. | Only allowed AI: reading Google AI Overview with no follow-ups, autocomplete, or SWE/ML code that is part of the task. | Any prompting or chatting with AI, AI Mode, Google “Ask anything”, or an AI feature doing real task work (for example Photoshop subject select). | Escalate unclear cases, such as passive enhancement features. Apply Privacy rules in the [Writer Handbook](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing), or the [LLM section](#llm-use) in this document. |
+| 10. The recording is free of personal information (PII), both on screen and in the audio. | Yes | N/A | No | Apply Privacy rules in the [Writer Handbook](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing), or the [PII section](#personally-identifiable-information-pii) in this document. |
+| 11. Deliverable assets meet licensing requirements. | Yes | N/A | No | Apply licensing rules in the [Writer Handbook](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing) or [brief details](#licensed-content-and-copyrights) in this guide. Merely browsing a website with a trademarked logo does not fail. |
+| 12. The narration and everything on screen are free of profanity. | Yes | Minor profanity on screen, not said or typed by the writer | Profanity said or typed by the writer, or major on-screen profanity | Minor: a mild word on a webpage or file the writer did not create. Major: slurs, explicit content, or anything prominent on screen. |
+| 13. Narration must be fully in English, and deliverables must be in English. | Yes | N/A | No, or cannot verify | Minor amounts of non-English content on screen are acceptable. |
+| 14. Recording includes an epilogue narration of 4:00 or less before recording stops: a narrated summary of how the task was verified, the approach, challenges, quality and reflections. | 4:00 or less, with real detail. | Over 4:00, or lacks detail (nonfailing). | N/A | A missing epilogue never sends a task back: use the unscored “Missing epilogue — does not block approval” response instead of a band. Ideas first approved before Oct 19, 2026, 6pm PT don’t need an epilogue, even after later revision. |
+
+## Apply the exceptions consistently
+
+Metadata.rtf: correct the Request, numbered Task Description and tagged Topology, keep the file in .rtf format, and replace it in Metadata.rtf Upload. Metadata errors alone never send the task back. A Metadata.rtf/TaskRecorder Goal mismatch is an audit pass, not a reviewer audit failure; explain the correction in Internal Notes and DM the writer and reviewer.
+
+Intro length, silence duration and click pacing are advisory only. Mouse inactivity is an unscored, timestamped Internal Note. Missing, long or thin epilogues follow item 14. These do not block approval on their own.
+
+Minor window overlap alone is not an error. Apply item 2’s exact criteria, distinguish separate windows from tabs in the same window, and record the timestamp and windows involved when making a call.
+
+Review the actual workflow and output against the approved idea. Low complexity alone is not a send-back reason. Use the <u>Reviewer Checklist</u>’s Quick Reference Guide for other fix-and-approve, send-back and reject rules.
+
+## Privacy and licensing sweep
+
+Scrub to the start, every app or window change, every save or export dialog, and the final minutes. Check app account corners, the browser profile, Finder sidebar, file paths, Terminal prompts, autofill, recent-file lists and notification previews. Listen for personal information as well as checking the screen. Apply item 10 and the detailed PII rules in <u>Reviewer Checklist</u>. Real personal emails, home addresses, phone or account numbers, personal photos or biometrics are not allowed. A brief exposure still needs review; do not ignore it because it appears in only one frame. The listed exceptions still apply, including @mercor.expert email/account names, public figures or profiles, obvious fake example details and the writer’s first name.
+
+A brief glimpse of the words Mercor or Odin alone is allowed. Showing Studio, Insightful or Odin Slack is a separate prohibited exposure: project tools and project-administration documents must not appear in the recording. Inspect assets inside the deliverables, not just the websites visited. Images, videos and other downloaded assets must meet the CC0/public-domain requirements; royalty-free alone is insufficient. Apply the public-repository license exceptions, Gemini-watermark exception and other detailed licensing rules in <u>Reviewer Checklist</u>. Merely browsing a site with a trademarked logo does not fail. Escalate unclear licensing before deciding.
+
+# Manual checks that AutoQC does not replace
+
+Check these points even when the automated result is green. Use the current checklist for bands and exceptions; the following are evidence checks, not additional scored items.
+
+**Item 1 — Metadata:** check the file name, leftover template text, numbered Task Description steps, LOOKUP/CREATE/MODIFY tags, Request text, and app sequence. Compare apps and workflow yourself, then correct the .rtf file and replace it in Metadata.rtf Upload.
+
+**Item 2 — Windows:** check visibility of the content actually being worked on, as well as the amount and duration of overlap. In-app dialogs, pop-ups, menus and toolbars are exceptions while in use. Record the timestamp and the windows involved.
+
+**Item 3 — Narration:** check What and Where coverage for actions that select something or change the app state, not just edits to the document. What and Why without Where does not meet the acceptable band. Use the eyes-closed test. **Item 4 — Workflow:** verify every major action promised in the task, including steps that create the deliverable, and confirm the final output is shown and saved during the recording. Also confirm deliverables.zip has every input file used and the final output.
+
+**Items 5–6 — Start and finish:** check the menu-bar seconds in the first and last moments, and verify that the Goal document appears at the start and is promptly minimized. Apply the current Goal-document app requirements.
+
+**Item 7 — Typing:** use AutoQC’s reported percentage and the correct task type. The applicable limits are 25%, or 35% for Coding / Content & Writing; equality is within tolerance. Do not estimate the percentage by hand.
+
+**Item 8 — Audio:** listen at 1× speed and judge first-listen understanding. Noise checks or live captions are aids, not substitutes for listening. Loud typing is fine when narration remains clear; do not invent a words-per-minute failure threshold. **Items 9–14 — Manual review:** inspect AI use, PII, licensing, profanity, English narration/deliverables and the epilogue directly. Do not assume an automated pass has cleared them. The epilogue has no three-minute minimum; apply item 14’s maximum, detail requirement and nonblocking missing response. **Other flags:** check required files are uploaded and readable; video duration; deliverable names; final output saved on video; TaskRecorder fields; Accessibility Inspector; UI changes; app-use restrictions; and work on unrecorded screens. Also review Dock, mouse-idle and background-app flags against the Quick Reference Guide. These findings do not create new checklist bands. Record the band for every active item. For each finding below ideal, include a timestamp where applicable, or the file/field location for a non-temporal issue. Use the row’s tolerance criteria rather than creating a separate severity ranking. Describe any AutoQC mismatch in the feedback with the evidence.
+
+# AutoQC and reviewer checks
+
+For every AutoQC flag or dispute, compare the claim with the recording or file. Explain whether you agree with a dispute. A green result does not establish band 1, and advice flags do not create additional failing checklist items. Check that the reviewer completed all required items, validated AutoQC, reached the right decision for the right reasons, and described every failing dimension with a specific example and a timestamp for each temporal issue. Keep reviewer coaching out of the writer-facing field.
+
+If Studio’s checklist or a blocking flag conflicts with this guidance, save the task link, exact field or flag, and supporting evidence; ask in the QC audit channel. Do not invent a replacement threshold or assume the platform has been corrected.
+
+## Feedback
+
+Leave feedback on every task, including approvals. Separate required fixes from growth notes. Writers do not see checklist bands, so describe the issue, evidence, ideal target and fix without band numbers or tolerance thresholds. Include enough detail to cover every required correction.
+
+**Writer-facing feedback template**
+
+Audit | &lt;your name> | &lt;date>
+
+Must fix before approval: &lt;list, or none>
+
+&lt;Checklist item name> | &lt;timestamp or file location> | &lt;what you observed>
+
+Target: &lt;the ideal behaviour>
+
+To fix: &lt;the specific change required>
+
+Growth notes: &lt;nonblocking advice, or none>
+
+**<u>Worked example: required fixes and growth notes</u>**
+
+**Too vague:** “Narration is weak and there’s too much dead air. Sending it back.” Audit | &lt;your name> | &lt;date>
+
+Must fix before approval: What/Where narration.
+
+**Required fix — narration** | 06:41, 09:15 and 14:02. You say “now I change this value here” without naming the field or value. A listener cannot follow those actions with eyes closed. Name each action and its exact on-screen location, and explain why when useful.
+
+**Growth note — silence** | 12:04–13:20. The recording is silent for 76 seconds while a build runs. For future tasks, narrate what you are waiting for during a long-running step. Silence duration does not block approval.
+
+**Why it matters:** the narration should let someone follow the actions without seeing the screen.
+
+To fix: name the field and the value each time you change it. Treat the waiting-time narration as advice for future tasks.
+
+## Insightful for QC audits
+
+|   |   |
+|---|---|
+| **Activity** | **Timer / action** |
+| QC audits, including evidence checks, file corrections, decisions, feedback and required task messages | QC timer while actively working. |
+| Regular reviews or re-reviews | Stop the QC timer and use the Reviewer timer. |
+| Approved reviewer office hours or review-related support | Admin timer, up to 2 hours per week under the reviewer office-hours/support allowance. |
+| Idle time, waiting for tasks, AutoQC or replies, breaks, personal tasks, or unrelated work | Stop the timer. A task staying claimed is not active work. |
+
+Use the Workpuls desktop app, sign in through SSO with your @mercor.expert account, and select the correct Odin timer. Stay within your approved hours. If the required timer is missing or broken, pause hourly work and report the exact issue for EPM help; do not substitute another work category.
+
+Other eligible audit duties include required paid onboarding or training, reading required guidance and updates, approved project meetings, necessary audit-related Slack discussions, and assigned corrections or follow-up. Use the timer category confirmed for that activity. Do not track passive Slack monitoring, access waits, personal technical troubleshooting, other-vendor work or waiting for AI replies.
+
+[Insightful installation and use](https://talent.docs.mercor.com/how-to/use-insightful)
+
+## QC pay and role terms
+
+Effective October 22, 2026 at 3:00 p.m. Pacific (PDT), Standard QC is $75/hour base ($75 total). Trusted QC is $75/hour base plus a $5/hour tier bonus ($80 total), in USD. Hours around the cutoff use the rate applicable when the work was done.
+
+Your contract shows the base rate; the tier uplift is paid separately as a bonus. Confirm your own tier, contract and approved hour allowance. Doing an audit does not itself grant a QC contract or extra hours, and separately announced incentives keep their own eligibility and dates.
+
+For a QC rate or tier discrepancy, use the [QC pay-announcement thread](https://mercor.enterprise.slack.com/archives/C0C4L2G2X6W/p1792706146749999) with the relevant contract and work details. Use <u>Reviewer Expectations</u> for the payment schedule and <u>Reviewer FAQ</u> for payment, role and access request forms.
+
+# QC FAQs
+
+**<u>Can I stop once I know the task needs edits?</u>**
+
+No. Watch the full recording and finish the checklist. Give the writer all required fixes in one pass.
+
+**<u>How is QC AHT calculated?</u>**
+
+The target is under 45 minutes on average per completed QC. Policy assessment pools the last seven complete Pacific calendar days: eligible logged QC hours × 60 ÷ completed QC decisions in that window. Do not average daily AHTs. Dashboard filters do not change the policy window. This is an average, not a per-task cutoff; record active eligible work accurately.
+
+**<u>Do metadata mistakes fail the reviewer audit?</u>**
+
+A Metadata.rtf/TaskRecorder Goal mismatch is an audit pass. Fix and replace the file in Metadata.rtf Upload, note the correction, and DM the writer and reviewer. A materially different recorded workflow is a separate issue; a metadata edit cannot repair it.
+
+**<u>Where can I find QC resources and report repeated problems?</u>**
+
+Use the [audit calibration thread](https://mercor.enterprise.slack.com/archives/C0CCNF5AT5W/p1792825508083479) for uncertain decisions, with the task link and what you are unsure about. The [QC Resources canvas](https://mercor.enterprise.slack.com/docs/T09M1S7BCMR/F0B967AFF26) also contains team logistics and tracker links. Repeated reviewer misses should be flagged to an EPM; the [Low Quality Review Report form](https://docs.google.com/forms/d/e/1FAIpQLSflPgS2H23JodXQ-3CP14IfaCo7i0OYZ779dGJsW9U5Fum_VQ/viewform) is available for reporting review quality. **<u>What if I am unsure about AI, licensing, PII or an AutoQC flag?</u>** Check the detailed rules in <u>Reviewer Checklist</u>, then ask in the QC audit channel with the task link, relevant timestamps and your proposed decision before deciding.
+
+**<u>What if I switch from QC to regular reviews?</u>**
+
+Follow your current queue assignment, stop the QC timer and start the Reviewer timer. Do not leave the QC timer running while waiting for another audit.
+
+# Probation audits
+
+For auditors checking probation reviewers. Review the task independently, compare the reviewer’s decision and reasoning, then release the held task. Your chosen outcome also records the audit result for the reviewer.
+
+<u>Reviewer Checklist · Review Workflow</u> · [Probation audit channel](https://mercor.enterprise.slack.com/archives/C0C9NMP012B) · [Status-correction thread](https://mercor.enterprise.slack.com/archives/C0C9NMP012B/p1792629482124149)
+
+# Claim your next audit
+
+\1. Open Available to claim under Dashboards in the left sidebar.
+
+![](images/p046_1.png)
+
+> *Text shown in the image:* Studio left menu (dark theme): Tasks (Tasks · Worlds) · Dashboards → **① Available to claim** (highlighted with a pink box, callout 1) · My tasks · My re-reviews · Review queue · My current reviewed tasks.
+
+\2. Set the status filter to Approved (Probation), not Ready for Review.
+
+![](images/p046_2.png)
+
+> *Text shown in the image:* Status dropdown, callout ②: the field shows “Approved (Probatic…” (dashed pink outline); the open list shows “✓ Approved (Probation)” (highlighted with a pink box, callout 2) and “Ready for Review”.
+
+\3. Click Get next task. Studio assigns the oldest waiting task. You cannot choose which one; you claim an individual review, not a reviewer.
+
+![](images/p047_1.png)
+
+> *Text shown in the image:* Button, callout ③ (highlighted with a pink box): [Get next task].
+
+\4. Confirm the task is In Probation Audit (orange, beside the task ID). Hold one probation audit at a time. Use Unclaim Audit if you cannot finish; an untouched claim returns to the queue automatically.
+
+![](images/p047_2.png)
+
+> *Text shown in the image:* Breadcrumb: HOME / All Tasks › TASK / Task 1q475f48, with the orange status badge “In Probation Audit” (highlighted with a pink box, callout ④).
+
+Follow current queue instructions for your assignment. When assigned probation audits, prioritise that queue and return to it when tasks become available. If it is empty, take eligible regular reviews as directed by your lead.
+
+A held send-back can appear as Waiting for Audit; held approvals and rejections appear as Approved (Probation). The writer cannot act until release. Tasks can also release when the reviewer’s standing is decided; if one disappears mid-audit, move on to an available task.
+
+# Audit the task, then the review
+
+Form your own verdict first using the current 14-item <u>Reviewer Checklist</u> and its Quick Reference Guide. Apply the same tolerance criteria and exceptions used in ordinary review; probation auditing does not introduce a stricter QC checklist. Check the recording, files, AutoQC flags and disputes. Resolve stale or disputed flags against the evidence. A genuine unresolved blocking issue makes an approval incorrect; intro length, silence duration, click pacing and other advisory-only findings do not block approval on their own.
+
+Check the reviewer’s decision, reasoning and complete writer-facing feedback. Did they identify the important issues and give a timestamp, specific element and actionable fix? A correct send-back can still fail an audit if it missed a major issue or left the writer without usable instructions. Minor misses alone, or extra nonblocking advice alongside the correct blocking issue, do not fail it. If feedback went by DM only, ask the reviewer for it before deciding.
+
+Correct the final Metadata.rtf yourself and replace it in Metadata.rtf Upload. A Metadata.rtf/TaskRecorder Goal mismatch is an audit pass, not a reviewer audit failure. Explain the correction and notify the writer and reviewer. Compare the recorded workflow and final output with the approved idea; low task complexity alone is not a reason to send back.
+
+Check that the final output is shown in the video and saved during the recording. If the video never shows the final output, send it for the required fixes. Compare the work with the approved idea rather than adding a separate complexity bar.
+
+# Choose the outcome
+
+**<u>Example decision controls</u>**
+
+![](images/p048_1.png)
+
+> *Text shown in the image:* Decision buttons (highlighted with pink boxes): **6a** [Send for Edits] · **6b** [Reject] · **6c** [Reject (wrong reasons)] · **6d** [Send to Approved].
+
+The screenshot shows example controls. Use the outcome table below for the full set of decisions and wrong-reasons cases; the available buttons depend on the task’s state.
+
+Agree means the decision and reasons were correct. A plain button matching the reviewer’s decision records a pass. Any wrong-reasons button, or a different decision, records a failed audit. Select the button for the correct task outcome; Studio records the reviewer result as part of that action.
+
+|   |   |   |
+|---|---|---|
+| **What you found** | **Result** | **Button** |
+| Reviewer approved, the task is approvable, and the reasons are right | Agree | Send to Approved |
+| Reviewer approved and the task is approvable, but they missed something blatant or the reasoning was wrong | Disagree | Send to Approved (wrong reasons) |
+| Reviewer approved but the task needs fixes | Disagree | Send for Edits |
+| Reviewer sent it back, the issues are real and the feedback is actionable | Agree | Send for Edits |
+| Reviewer sent it back correctly but missed something blatant, or the feedback would not help the writer | Disagree | Send for Edits (wrong reasons) |
+| Reviewer sent it back but the task was approvable | Disagree | Send to Approved |
+| Reviewer rejected, and the rejection and reasons are right | Agree | Reject |
+| Reviewer rejected correctly but for the wrong reasons | Disagree | Reject (wrong reasons) |
+| Reviewer rejected but a send-back was enough, or the reverse | Disagree | Send for Edits or Reject, whichever is right |
+
+Use “wrong reasons” for blatant misses or incorrect reasoning, not minor omissions. If the reviewer caught the important issues and the writer can act on the feedback, use the plain matching button. Ask in the probation audit channel before clicking if the case is unclear.
+
+## Feedback and follow-up
+
+After every audit, DM the reviewer whether you agreed or disagreed. Include the task link, Agree/Disagree result, what they got right, and what they missed or got wrong. Name the current checklist item, include timestamps where relevant, and explain the fix you expected.
+
+**Reviewer DM template**
+
+Task: &lt;link>
+
+Audit result: &lt;Agree / Disagree>
+
+What you got right: &lt;specific observations>
+
+What to improve: &lt;checklist item, timestamp and expected fix, or none>
+
+Task outcome: &lt;approved / edits / rejected>
+
+Keep any required writer corrections in the writer-facing Studio feedback and send the required writer DM. Reviewer coaching belongs in Internal Notes and the reviewer DM. Confirm the resulting task status after submitting.
+
+## Insightful for probation audits
+
+|   |   |
+|---|---|
+| **Activity** | **Timer / action** |
+| Auditing a probation review, checking evidence, correcting files, choosing the outcome and sending required feedback | QC timer while actively working. |
+| Doing an ordinary Full or Quick review | Reviewer timer, including when you yourself are a probation reviewer. |
+| Approved reviewer office hours or review-related support | Admin timer, up to 2 hours per week under the reviewer office-hours/support allowance. |
+| Waiting for an audit, new tasks, AutoQC, access or replies; breaks and unrelated work | Stop the timer. |
+
+Auditing a probation reviewer and doing your own probation reviews are different activities: auditors use QC; reviewers use Reviewer. Switch timers when switching duties. Stay within your approved hours. If the required timer is missing or broken, pause hourly work and report it for EPM help.
+
+Other eligible audit duties include required paid onboarding or training, reading required guidance and updates, approved project meetings, necessary audit-related Slack discussions, and assigned corrections or follow-up. Use the timer category confirmed for that activity and stay within your approved allowance.
+
+Check your role and hour allowance in work.mercor.com → Home → Contracts → Odin. Doing a probation audit does not itself change your contract, tier or rate. Use the rate and allowance confirmed for your assignment; if you are assigned as a Reviewer, the reviewer terms apply.
+
+[Insightful installation and use](https://talent.docs.mercor.com/how-to/use-insightful)
+
+# Probation audit FAQs
+
+**<u>The decision was correct. When is “wrong reasons” appropriate?</u>**
+
+Only when a blatant miss, incorrect reasoning or unusable feedback makes the review defective. It is not for minor misses. A valid send-back can include extra nonblocking feedback without failing the audit.
+
+**<u>Do I send a reviewer DM after a passing audit?</u>**
+
+Yes—after every audited task. State the result and what was done well, along with any useful improvement feedback.
+
+**<u>Why is Send to Approved greyed out?</u>**
+
+AutoQC may need fresh results. Wait a few minutes with the timer paused if you are only waiting. If it remains unavailable, post the task link and exact state in the probation audit channel.
+
+**<u>What if I clicked the wrong outcome or lost feedback?</u>**
+
+Use the [status-correction thread](https://mercor.enterprise.slack.com/archives/C0C9NMP012B/p1792629482124149). Include the task link, current status, intended status and one line explaining the correction. An EPM handles the change. If the task is already with the writer, it cannot be pulled back through this correction flow; DM the writer instead.
+
+**<u>Does a passing audit mean the reviewer has passed probation?</u>**
+
+A single passing task is not the reviewer’s final probation outcome. Reviews are assessed in pairs, with at most four reviews while awaiting feedback. Use the probation rules in the <u>Reviewer FAQ</u> and confirm the reviewer’s recorded outcome before telling them their role or allowance has changed.
+
+**<u>Where do I ask about a judgment call?</u>**
+
+Use the probation audit channel with the task link, checklist item, evidence and proposed result. Ask before clicking when unsure. For an AutoQC or form mismatch, include the exact flag or field instead of treating an advisory issue as a failure.
 
 # Reviewer Checklist
 
@@ -499,7 +798,7 @@ Below is the Project Odin Reviewer checklist that will be used to verify the qua
 - 2 = Within acceptable tolerance
 - 3 = Failing tolerance
 
-    ![](images/p033_1.png)
+    ![](images/p053_1.png)
 
     > *Text shown in the image:* SCORING SCALE — BINARY ROWS: 1 = YES, 3 = NO. Scale bar: **1 Ideal state** · **2 Within acceptable tolerance** · **3 Failing tolerance**. Groups: WITHIN TOLERANCE (1–2) and FAIL (3).
 
@@ -511,30 +810,30 @@ A single item in this checklist which scores a 3 will require the task to be sen
 
 ## Metadata.rtf
 
-The first checklist item relates to the Metadata.rtf file. Here’s what it is, and how to handle it.
+Studio generates Metadata.rtf draft from the approved idea. The writer downloads it, checks and edits it, then uploads the final file in Metadata.rtf Upload.
 
-- Open the file in any text editor and keep it in .rtf format. Fix any errors yourself and re-upload it.
+- Review the file in Metadata.rtf Upload; the draft alone does not count as the final upload. Open it in a text editor, keep it in .rtf format, fix any errors yourself, then replace and verify it in the same field.
 - **Request:** the Goal section of the approved idea, exactly as approved. Nothing else.
 - **Task Description:** a numbered, step-by-step outline of how the writer will complete the task.
 - **Topology:** the apps in the order used, each tagged LOOKUP (reading or finding, no changes), CREATE (making something new) or MODIFY (changing something that exists). Apps can repeat. Example: Safari (LOOKUP) → Excel (CREATE) → GraphPad Prism (CREATE)
 
-    ![](images/p034_1.png)
+    ![](images/p054_1.png)
 
     > *Text shown in the image:* Metadata.rtf Upload* — The filled-in Metadata.rtf for this recording.<br>File: Metadata.rtf (46.7 KB) with a download icon (highlighted)
 
 |   |   |   |   |   |
 |---|---|---|---|---|
 | **Checklist item** | **1 = Ideal state** | **2 = Within acceptable tolerance** | **3 = Failing tolerance** | **Notes** |
-| 1. Metadata.rtf matches the TaskRecorder Goal (apps, workflow). | The metadata.rtf Request matches the TaskRecorder Description word for word, and the apps in the Task Description and TOPOLOGY fields match the TaskRecorder apps. | The Request wording differs but keeps every key idea, and the apps match. | Key ideas differ, or the apps do not match. | If this scores a 3, it does not send the task back- you should **correct this issue yourself in the Metadata.rtf.** |
+| 1. Metadata.rtf matches the TaskRecorder Goal (apps, workflow). | The metadata.rtf Request matches the TaskRecorder Description word for word, and the apps in the Task Description and TOPOLOGY fields match the TaskRecorder apps. | The Request wording differs but keeps every key idea, and the apps match. | Key ideas differ, or the apps do not match. | If this scores a 3, do not send the task back.<br>**Correct the file yourself and replace it in Metadata.rtf Upload.** |
 | 2. The content being worked on remains visible. | No window covers >25% of another for >6 s, and no window covers any part of the content being worked on. | A window covers >25% of another for 6-30 s, and no window covers any part of the content being worked on. | A window covers >25% of another for >30 s, or a window covers any part of the content being worked on. | Minor window overlap alone is not an error and does not require edits or a re-record. Two tabs belonging to one window of the same app are not separate windows. For any call, note the timestamp and the two windows involved. |
 | 3. Narration says what and where for each action, and why when useful. | ≥70% of actions have all 3 Ws (what, where, why). | ≥70% of actions have what and where (why optional). | Under 70% of actions have what and where. Missing where fails. (A narration with what and why, but no where, now fails.) | Eyes-closed test: with your eyes closed, could you follow which actions are being performed? An action is anything that selects something or changes the state of the app. Example with all three: “I'll click the blue Export button in the top right to save the chart as a PDF.” |
-| 4. Screen recording shows the workflow described in the task. | All major actions stated in the task are in the video. | N/A | The video is missing 1+ major action stated in the task. | A major action is a step in the task's numbered description, or a step that creates part of the deliverable. |
+| 4. Screen recording shows the workflow described in the task. | All major actions stated in the task are in the video, and deliverables.zip has every input file used and the final output. | N/A | The video is missing 1+ major action stated in the task, or deliverables.zip is missing an input file used in the task or the final output. | A major action is a step in the task's numbered description, or a step that creates part of the deliverable. An input file is one the writer opened or used in the task; websites visited only for research don't count. AutoQC only checks file names, so open deliverables.zip and compare it with the recording. |
 | 5. The menu bar clock shows seconds at the start and end of the video. | Yes | N/A | No | Check the first and last few seconds; it doesn't need to be visible in between. |
 | 6. The Goal document (task description) is shown at the start of the recording, then promptly minimized. | Yes | N/A | No | The Goal document can’t be shown in Notes.app or TextEdit; Preview and other apps are fine. |
 | 7. Typing takes up 25% of the video or less (35% or less for Coding / Content & Writing tasks). | ≤25% of the video (≤35% for Coding / Content & Writing) | N/A | >25% of the video (>35% for Coding / Content & Writing) | Use the AutoQC typing % and task type; do not estimate by hand. |
 | 8. The narration can be understood on first listen. Background noise, mumbling, speaking too fast, a strong accent or broken English only matter when they get in the way of understanding the video. Loud typing is fine if the narration stays clear. | You can follow everything the writer says without replaying. | N/A | You have to replay or guess to understand what is happening in the video, because of noise, mumbling, pace or unclear speech. | Tip: turn on Chrome Live Caption (Chrome Settings > Accessibility > Live Caption) and play the video. **If the captions pick up what the writer is saying, that is a good sign it is clear.** Many auditors have found this helpful. Judge clarity at 1x speed. |
 | 9. The recording is free of disallowed AI use. | No AI used. | Only allowed AI: reading Google AI Overview with no follow-ups, autocomplete, or SWE/ML code that is part of the task. | Any prompting or chatting with AI, AI Mode, Google “Ask anything”, or an AI feature doing real task work (for example Photoshop subject select). | Escalate unclear cases, such as passive enhancement features. Apply Privacy rules in the [Writer Handbook](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing), or the [LLM section](#llm-use) in this document. |
-| 10. The recording is free of personal information (PII), both on screen and in the audio. | Yes | N/A | No | Apply Privacy rules in the [Writer](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing)<br>[Handbook](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing), or the [PII section](#personally-identifiable-information-pii) in this document. |
+| 10. The recording is free of personal information (PII), both on screen and in the audio. | Yes | N/A | No | Apply Privacy rules in the [Writer Handbook](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing), or the [PII section](#personally-identifiable-information-pii) in this document. |
 | 11. Deliverable assets meet licensing requirements. | Yes | N/A | No | Apply licensing rules in the [Writer Handbook](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing) or [brief details](#licensed-content-and-copyrights) in this guide. Merely browsing a website with a trademarked logo does not fail. |
 | 12. The narration and everything on screen are free of profanity. | Yes | Minor profanity on screen, not said or typed by the writer | Profanity said or typed by the writer, or major on-screen profanity | Minor: a mild word on a webpage or file the writer did not create. Major: slurs, explicit content, or anything prominent on screen. |
 | 13. Narration must be fully in English, and deliverables must be in English. | Yes | N/A | No, or cannot verify | Minor amounts of non-English content on screen are acceptable. |
@@ -546,7 +845,7 @@ Below is a quick reference table for when to approve, fix and approve, send back
 
 | **Issue** | **Action** | **How** |
 |---|---|---|
-| Any Metadata.rtf error (Request, topology, apps, mismatch with Goal or TaskRecorder) | FIX + APPROVE | Fix, re-upload, explain in Studio feedback + Slack DM. Never send back for metadata alone. |
+| Any Metadata.rtf error (Request, topology, apps, mismatch with Goal or TaskRecorder) | FIX + APPROVE | Fix and replace the file in Metadata.rtf Upload; explain in Studio feedback + Slack DM. Never send back for metadata alone. |
 | TaskRecorder description missing or mismatched, and it’s the only error | FIX + APPROVE | Once metadata.rtf matches the Studio goal: Internal Note + Edge Case checkbox. |
 | Non-restricted app unlisted, or listed but unused | FIX + APPROVE | Fix editable files; if the field is locked, add an Internal Note. A materially different workflow still needs edits. |
 | Deliverable file name slightly off | FIX + APPROVE | Rename it yourself. |
@@ -559,15 +858,16 @@ Below is a quick reference table for when to approve, fix and approve, send back
 | Epilogue missing / over 4:00 or thin | APPROVE | Use the unscored “missing” response / band 2 + growth note. |
 | Video is 50:59–54:59, single-app task, low task complexity | APPROVE | No deduction for these alone. |
 | TaskRecorder window not shown at the start | APPROVE | Possibly a recorder bug. Review as normal and add an Internal Note. |
-| Any active checklist item at band 3 (2, 3, 4, 5, 6, 8, 10, 12–16) | SEND BACK | Send-back template, with timestamps. |
+| Any checklist item 2–13 at band 3 | SEND BACK | Send-back template, with timestamps. |
 | Confirmed there is an app-use violation. Check the [Writer Handbook](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?usp=sharing) for the source of truth list. | SEND BACK | Name the app, the prohibited use and timestamps. |
 | Workflow or deliverable materially different from the approved idea | SEND BACK | Fixing the metadata can’t repair this. |
 | Resubmitted with no changes | SEND BACK | Point to the original note. |
 | Accessibility Inspector not running / no UI element changed | SEND BACK | At least one UI element needs to be changed, and Accessibility Inspector must be running. |
 | Studio, Insightful or Odin Slack on screen | SEND BACK | Project materials cannot be shown on the recording. |
-| Missing or unreadable files, video outside 15:00–54:59 | SEND BACK | Send back with suggestions. |
+| Missing or unreadable files (including a missing input file or final output in | SEND BACK | Send back with suggestions. |
+| deliverables.zip), video outside 15:00–54:59 |   |   |
 | Concept can’t be fixed within the approved scope | REJECT | If unsure, send back instead. |
-| Still needs writer changes after review #4 | REJECT | Tasks have a maximum of 4 reviews. If it can’t be approved on review 4, it should be rejected. |
+| Still needs writer changes after review #3 | REJECT | Tasks have a maximum of 3 reviews. If it can’t be approved on review 3, it should be rejected. |
 | Unclear AI feature, licensing or PII | ESCALATE | #odin-reviewers-hub for advice if you aren’t sure. |
 
 # Additional review rules and guidance
@@ -619,13 +919,13 @@ There are several places PII can slip in, and recordings which include them will
 - **App profile corners.** The writer’s name or photo in the top-right account area of PowerPoint, Word, Google Docs, Sheets or Slides, or the browser's profile button.
     - An initial in the corner of Chrome, with no personal photo, is ok.
 
-        ![](images/p044_1.png)
+        ![](images/p064_1.png)
 
         > *Text shown in the image:* Google account menu fragment: a pink “Work” profile chip with an “H” avatar and a three-dot menu; below it a Gemini sparkle icon and a pink circular “H” avatar.
 
         &lt;-- This is ok!
 
-- **Usernames in paths.** The writer’s name in the Finder sidebar, a window title, a save or export dialog (/Users/yourname/...), or the Terminal prompt.
+- **Usernames in paths.** The writer’s full name in the Finder sidebar, a window title, a save or export dialog (/Users/yourname/...), or the Terminal prompt.
 - **Logged-in accounts.** A personal email or profile photo in Chrome, Gmail, Google Drive or any web app.
 - **Autofill and history.** The writer’s name or email in search suggestions, recent-file lists, or notification previews.
 
@@ -651,6 +951,20 @@ Recordings should not contain:
 - Unverified or unclear licensing
 - Paywalled or otherwise restricted material
 - Private repositories
+
+    ❌ **Not ok to include**
+
+    Canva library assets and templates
+
+    Pixabay, Pexels, Unsplash, [Template.net](http://template.net), and
+
+    other stock sites
+
+    Stock MIDI and video clips
+
+    Text compiled from websites
+
+    Template backgrounds
 
 # LLM Use
 
@@ -692,7 +1006,7 @@ Unlisted apps and apps without prior approval are fine unless they are banned or
 
 # Deliverables
 
-You should open all of the files for each task and check everything is there. Websites visited only for research aren’t inputs. Don’t fail a task for leaving them out.
+You should open all of the files for each task and check everything is there and aligns with the task performed in the video recording. Websites visited only for research aren’t inputs. Don’t fail a task for leaving them out.
 
 |   |   |   |
 |---|---|---|
@@ -707,7 +1021,7 @@ AutoQC checks do not replace the current reviewer guidance or manual checklist. 
 
 Always review the AutoQC, and any disputes, when performing your review.
 
-- **Item 1:** Checks the file name, template text left in, unnumbered Task Description steps, a Topology step with no LOOKUP/CREATE/MODIFY tag, or a Request under 70% similar to the TaskRecorder Goal. It does not compare apps.
+- **Item 1 (Metadata.rtf Upload):** Checks the file name, template text left in, unnumbered Task Description steps, a Topology step with no LOOKUP/CREATE/MODIFY tag, or a Request under 70% similar to the TaskRecorder Goal. It does not compare apps.
 - **Item 2:** Checks if a window covers about 25% or more of another for over 30 s. It does not check 6-30 s, or any cover over the window being worked in.
 - **Item 3:** AutoQC checks for two of What, Where and Why on actions that change the document. It can pass narration with What and Why but not Where. Check Where coverage yourself.
 - **Item 4:** AutoQC checks whether the recording matches the described task. Independently verify that every major action promised in the task appears in the recording.
@@ -718,7 +1032,9 @@ Always review the AutoQC, and any disputes, when performing your review.
 - **Item 9:** Checks silence duration: retained in AutoQC for advisory feedback only. Never blocks approval and is not scored in the reviewer checklist.
 - **Item 10:** background-noise checks- but these do not replace the first-listen clarity test. Ensure the audio is clear.
 
-    AutoQC also checks: That all files uploaded and readable, video length is 15:00-54:59, deliverable file names, final output saved during the recording, Dock visible at start and end, Accessibility Inspector running with its window hidden, TaskRecorder description and Used Apps, at least one UI element changed, mouse idle, banned apps, background-only apps (Insightful, Splashtop) in front for 10 s or more, limited-use apps over 20% of the video, and work on an unrecorded screen.
+    AutoQC also checks: That all files uploaded and readable, video length is 15:00-54:59, deliverable file names, final output saved during the recording, Dock visible at start and end, Accessibility Inspector running with its window hidden, TaskRecorder description and Used Apps, at least one UI element changed, mouse idle, banned apps, background-only apps
+
+    (Insightful, Splashtop) in front for 10 s or more, limited-use apps over 20% of the video, and work on an unrecorded screen.
 
 # Reviewer FAQ
 
@@ -808,6 +1124,10 @@ You will be paid $100 + $2/minute for each task you write that reaches RFD. <u>C
 
 <u>Feedback templates</u>
 
+**Which Metadata.rtf file should I review?**
+
+Review and correct the file in Metadata.rtf Upload. See [Reviewer Checklist → Metadata.rtf](https://docs.google.com/document/d/1h1ApNzRTwuYNVeT3IsGH1HTVOfz8j979X0dyYU-lQBk/edit?tab=t.n28njmu74xlx#heading=h.so5jhzj2bsrb) for the draft/final distinction.
+
 **My review matched the final decision. Why did I fail the audit?**
 
 Auditors check your reasoning and feedback as well as the final decision. A review can fail if it misses a major issue, bases the decision on incorrect reasoning, or does not tell the writer what to fix. For required fixes, identify the issue, include a timestamp where relevant, and explain the change needed. Minor misses alone do not fail an audit, and extra feedback on nonblocking issues is allowed. Keep the complete feedback in the writer-facing Studio field so the writer and auditor can review it.
@@ -866,9 +1186,9 @@ Both are quality re-review statuses for tasks that were sent back: RFD - Minor f
 
 **What happens to tasks already at or beyond four reviews when the cap takes effect?**
 
-The four-review cap takes effect October 27, 2026 at 11:59 p.m. Pacific.
+The three-review cap takes effect October 29, 2026 at 5:30 p.m. Pacific.
 
-Tasks already at or beyond the cap may receive one final review if the writer submits the final revision by that cutoff. A final revision submitted by the cutoff remains eligible for that review even if it is still waiting in the queue after the deadline; approval does not need to happen before the cutoff.
+Tasks already at or beyond the cap may receive one final review if the writer submits the final revision by October 30, 2026 11:59 PM PT. A final revision submitted by the cutoff remains eligible for that review even if it is still waiting in the queue after the deadline; approval does not need to happen before the cutoff.
 
 If that final review still requires changes from the writer, reject the task rather than sending it back again.
 
@@ -973,10 +1293,11 @@ Check your Odin contract in [work.mercor.com](https://work.mercor.com) → Home 
 | Does not contain any PII | Contains disallowed identifying information, such as private contact or account details. Apply the privacy guidance’s exceptions for names and public information. |
 | App use complies with the current categories, use limits and applicable in-flight protections. | App use violates a current requirement and is not covered by an applicable in-flight protection. |
 | AI is not used during the recording. Inputs may be prepared with AI before recording if that preparation is disclosed. | The writer uses AI during their recording/ interacts with AI prompts such as ‘Ask me anything’. |
-| Has all the 4 files including the Metadata.rtf file, video.mp4 file, recording\_TIMESTAMP.zip and the deliverables.zip | Is missing one or all the files required to review the task. |
+| Has all the 4 files including the final file in Metadata.rtf Upload, video.mp4 file, recording\_TIMESTAMP.zip and the | Is missing one or all the files required to review the task. |
+| deliverables.zip |   |
 | The deliverables.zip contains all the files including the input file, artifacts and final outputs. | The deliverables.zip is missing the final output |
 | Bottom Dock is acceptable when at least one UI element has been changed | Bottom Dock with no UI element changed; the issue is missing UI diversity, not Dock position. |
-| Has at least one UI element changed apart from the position of the dock, such as the wallpaper, resolution, the mode or the color of the icons. | No UI change apart from the position of the dock. |
+| Has at least one UI element, such as the position of the dock, wallpaper, resolution, the mode or the color of the icons. | No UI change apart from the position of the dock. |
 | Working windows remain readable and unnecessary overlaps are minimized. | An unused window covers more than 25% of another for over 30 seconds |
 | The cursor naturally guides the viewer. The closing epilogue may be still. | The cursor sits still for long stretches outside the epilogue (a timestamped callout, not a send-back on its own). |
 | Typing is ≤25% for a non-coding and non-Content & Writing task and ≤35% for a Coding / Content & Writing task | Typing is >25% for a non-coding and non-Content & Writing task and >35% for a Coding / Content & Writing task |
@@ -991,7 +1312,7 @@ Use the Bad Example to study Project Odin quality guideline violations.
 
 Task Description
 
-As a data scientist who is compiling information to help guide decision making for the upcoming state election in Victoria, I have been tasked with presenting specific demographic data to decision makers. As part of this I need to prefer data for age demogramphics for a regional town area (Ararat, VIC) against overall state averages to be used in a future presentation.
+As a data scientist who is compiling information to help guide decision making for the upcoming state election in Victoria, I have been tasked with presenting specific demographic data to decision makers. As part of this I need to prefer data for age demographics for a regional town area (Ararat, VIC) against overall state averages to be used in a future presentation.
 
 I will use Firefox to obtain the data for the publicly available census 2026 data that can be commercial planning, market research, and strategy and download as a CSV file. I will then load the data into Google Sheets to analyse the data and create a plot of the data in a comparison format between the community and state. I will then print the data to pdf to be used as required, and open it in preview to show that the print worked. Apps Used
 
@@ -1001,7 +1322,7 @@ Google Sheets
 
 Video: [Full task recording](https://drive.google.com/file/d/1urN8CdMfuahC6cgA50YVVosaWDYKd6_d/view?usp=sharing) (16:41)
 
-![](images/p059_1.png)
+![](images/p080_1.png)
 
 > *Text shown in the image:* Example frame from a recording: Firefox “New Tab” page with the TaskRecorder window open in front (Status: Recording… · Stop Recording). Task Description: “Obtain demographics data for the LGA of Ararat in Western Victoria. Find the age demographics data within this informaiton and create a table of this in Google Sheets. Then compare this table against the census data online to show the table has been correctly produced”. Used Apps: Google Sheets · Firefox.
 
@@ -1014,14 +1335,14 @@ Video: [Full task recording](https://drive.google.com/file/d/1urN8CdMfuahC6cgA50
 | 4. Screen recording shows the workflow described in the task | Not scored in this example |   |   |
 | 5. The menu bar clock shows seconds at the start and end of the video | Yes |   |   |
 | 6. The Goal document is shown at the start of the recording |   |   | No |
-| 8. Typing takes up 25% of the video or less (35% for Coding / Content & Writing) | Yes, about 20% of the task |   |   |
-| 10. The narration can be understood on first listen | Yes, no background noise |   |   |
-| 12. The recording is free of disallowed AI use | Yes |   |   |
-| 13. The recording is free of PII, on screen and in the audio | Yes |   |   |
-| 14. Deliverable assets meet licensing requirements | Yes |   |   |
-| 15. The narration and everything on screen are free of profanity | Yes |   |   |
-| 16. Narration and deliverables are in English; minor non-English content on screen is acceptable | Yes |   |   |
-| 17. Epilogue narration (over 4:00 is nonfailing) | Not scored in this example |   |   |
+| 7. Typing takes up 25% of the video or less (35% for Coding / Content & Writing) | Yes, about 20% of the task |   |   |
+| 8. The narration can be understood on first listen | Yes, no background noise |   |   |
+| 9. The recording is free of disallowed AI use | Yes |   |   |
+| 10. The recording is free of PII, on screen and in the audio | Yes |   |   |
+| 11. Deliverable assets meet licensing requirements | Yes |   |   |
+| 12. The narration and everything on screen are free of profanity | Yes |   |   |
+| 13. Narration and deliverables are in English; minor non-English content on screen is acceptable | Yes |   |   |
+| 14. Epilogue narration (over 4:00 is nonfailing) | Not scored in this example |   |   |
 
 Verdict: send back. Item 6 (Goal document not shown) is at band 3. Click pacing is no longer scored and does not support this send-back. The original example also recorded app-use and submission-confirmation concerns. Assess app-use concerns under the current rules and applicable in-flight protections; an old restricted label alone does not establish a failure. “Not scored in this example” means the original example did not record a score for that item.
 
@@ -1049,7 +1370,7 @@ Pages
 
 Video: [Full task recording](https://drive.google.com/file/d/1TOANq_bwgQ_Qyti7PL2R86mR1xAgctUP/view?usp=sharing) (44:19)
 
-![](images/p063_1.png)
+![](images/p084_1.png)
 
 > *Text shown in the image:* Screenshot of Firefox with the monday.com “PO Tracker” board (groups “PO Pending” and “PO Payment Received”, columns PO number, Person, Status, PO raised, Due date).
 
@@ -1065,7 +1386,7 @@ OBS Studio
 
 Video: [Full task recording](https://drive.google.com/file/d/10HcP0usXgrPBP4AdVLBUNdjpONvHc_Iq/view?usp=sharing) (24:44)
 
-![](images/p064_1.png)
+![](images/p085_1.png)
 
 > *Text shown in the image:* Screenshot of OBS Studio (Scenes: Logo 1, Pre-Show, Screen Capture, Post Show) previewing a “we will begin shortly” Word Retreat slide.
 
@@ -1081,7 +1402,7 @@ Logic Pro
 
 Video: [Full task recording](https://drive.google.com/file/d/18aeXVN8jy6rAIQPv_BMUByg53KDnnSrq/view?usp=sharing) (22:58)
 
-![](images/p065_1.png)
+![](images/p086_1.png)
 
 > *Text shown in the image:* Screenshot of Logic Pro Piano Roll (Hero – Piano Roll) with MIDI notes, Time Quantize, Strength, Swing, Scale Quantize and Velocity controls.
 
@@ -1097,7 +1418,7 @@ Substance 3D Painter
 
 Video: [Full task recording](https://drive.google.com/file/d/1wVBfJCTIAPJHJ6w3hoVHnZxSk-ujKYLA/view?usp=drive_link) (40:59)
 
-![](images/p066_1.png)
+![](images/p087_1.png)
 
 > *Text shown in the image:* Screenshot of Adobe Substance 3D Painter (Untitled) with a 3D popcorn bucket, texture set list, layers and Properties – Fill panel.
 
@@ -1117,7 +1438,7 @@ Icon Composer
 
 Video: [Full task recording](https://drive.google.com/file/d/14Fgj-2mtxKmCXIMiGnUT57EElc5rnjec/view?usp=drive_link) (28:37)
 
-![](images/p067_1.png)
+![](images/p088_1.png)
 
 > *Text shown in the image:* Screenshot of Icon Composer with a yellow background, a blue music-play icon, layer tree (Group / play.00) with a context menu, and the Fill/Layer inspector on the right.
 
@@ -1210,7 +1531,7 @@ Use when every current manual item and AutoQC requirement passes. Delete any lin
 
 MM/DD @ HH:MM TIMEZONE, Review #\_\_\_, REVIEWER NAME
 
-Comments: Task approved. Clear narration identifies the action, specific element and screen location, with Why where useful. Setup, Goal document, Metadata.rtf, app-use rules, privacy, licensing, profanity, English, window management and typing checked against the applicable checklist. Video length, screenshot count, original recording ZIP, video.mp4 and deliverables.zip verified. The task is complete with its required final deliverable. Reviewer: delete any statement you did not verify; use only the checks required for the review path.
+Comments: Task approved. Clear narration identifies the action, specific element and screen location, with Why where useful. Setup, Goal document, Metadata.rtf Upload, app-use rules, privacy, licensing, profanity, English, window management and typing checked against the applicable checklist. Video length, screenshot count, original recording ZIP, video.mp4 and deliverables.zip verified. The task is complete with its required final deliverable. Reviewer: delete any statement you did not verify; use only the checks required for the review path.
 
 **Approved with growth notes (no blocking failure)**
 
@@ -1226,11 +1547,15 @@ Areas to grow for your next tasks:
 
 \- \[paste snippet\]
 
-None of these blocked approval this time, but items at the edge of tolerance can fail on a future task. The Workflow Checklist in the Writer Guidelines covers each one. Keep up the great work!
+None of these blocked approval this time, but items at the edge of tolerance can fail on a future task. The [Workflow Checklist](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?tab=t.g0bw6bmrv2gs) in the Writer Guidelines covers each one. Keep up the great work!
 
 **Needs Edits (a current blocking item fails)**
 
-Use when at least one current blocking item fails but can be fixed within the approved idea. Split required writer fixes into recording and file fixes. Reviewers correct and verify Metadata.rtf themselves; a fixable metadata issue alone does not require a writer send-back or rerecord. MM/DD @ HH:MM TIMEZONE, Review #\_\_\_, REVIEWER NAME
+Use when at least one current blocking item fails but can be fixed within the approved idea. Split required writer fixes into recording and file fixes. Reviewers correct and verify the file in
+
+Metadata.rtf Upload themselves; a fixable metadata issue alone does not require a writer send-back or rerecord.
+
+MM/DD @ HH:MM TIMEZONE, Review #\_\_\_, REVIEWER NAME
 
 Hi \_\_\_,
 
@@ -1248,7 +1573,7 @@ Growth notes (did not block approval):
 
 \- \[paste snippet\]
 
-Please run full AutoQC again after changes before resubmitting, and use the Workflow Checklist in the Writer Handbook. Address every required fix together. Approval depends on the completed review; the next submission is not guaranteed approval. For a brief video with further details, see [here](https://www.loom.com/share/5c1438d9ec6b4d10aa3c332195c3658a).
+Please run full AutoQC again after changes before resubmitting, and use the [Workflow Checklist](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?tab=t.g0bw6bmrv2gs) in the Writer Handbook. Address every required fix together. Approval depends on the completed review; the next submission is not guaranteed approval. For a brief video with further details, see [here](https://www.loom.com/share/5c1438d9ec6b4d10aa3c332195c3658a).
 
 **Rejected (Invalid Task Idea)**
 
@@ -1258,9 +1583,7 @@ MM/DD @ HH:MM TIMEZONE, Review #\_\_\_, REVIEWER NAME
 
 Hi \_\_\_,
 
-I've completed my review of task \_\_\_. Unfortunately, this task cannot be approved or fixed through edits, for the reason below. Please do not resubmit this rejected task. - Unfixable app-policy conflict: The approved task cannot be completed without \_\_\_, which is prohibited by the current app policy: \_\_\_. Check the canonical app list, app-specific conditions and in-flight protections. If the violation can be corrected within the approved idea, use Needs Edits instead. Unlisted apps and missing prior app approval do not fail by themselves.
-
-\- Task concept: The approved workflow doesn't seem like it can be completed without \[excessive typing /exceeding the allotted timeframe\], so no re-record of this idea would meet the requirements.
+I've completed my review of task \_\_\_. Unfortunately, this task cannot be approved or fixed through edits, for the reason below. Please do not resubmit this rejected task. - Unfixable app-policy conflict: The approved task cannot be completed without \_\_\_, which is prohibited by the current app policy: \_\_\_. Check the canonical app list, app-specific conditions and in-flight protections. If the violation can be corrected within the approved idea, use Needs Edits instead. Unlisted apps and missing prior app approval do not fail by themselves. - Task concept: The approved workflow doesn't seem like it can be completed without \[excessive typing /exceeding the allotted timeframe\], so no re-record of this idea would meet the requirements.
 
 \- Do not select task complexity or lack of professional-level sophistication as a rejection reason. These restrictions are retired; assess whether the approved task and its required deliverables are complete.
 
@@ -1274,7 +1597,7 @@ For your next task, propose an idea in Studio and follow the current Task Ideati
 
 **file fix; do not send back for metadata alone**
 
-Metadata.rtf - I corrected Metadata.rtf to match the actual task and verified the separately uploaded corrected file. No writer action is needed for this metadata correction. Reviewer: use this message only after making and verifying the correction. Preserve the original recording ZIP; retain both the original and corrected task descriptions in Internal Notes. Attach corrected Metadata.rtf separately. Do not send back or require a rerecord for fixable metadata alone. Every delivery uses a new folder; do not add files to an already-delivered folder.
+Metadata.rtf - I corrected Metadata.rtf to match the actual task and verified the corrected file in Metadata.rtf Upload. No writer action is needed for this metadata correction. Reviewer: use this message only after making and verifying the correction. Preserve the original recording ZIP; retain both the original and corrected task descriptions in Internal Notes. Replace the file in Metadata.rtf Upload. Do not send back or require a rerecord for fixable metadata alone. Every delivery uses a new folder; do not add files to an already-delivered folder.
 
 **Menu bar clock shows seconds**
 
@@ -1300,7 +1623,7 @@ TaskRecorder window - For future recordings, minimize the TaskRecorder window af
 
 **TaskRecorder description and apps: file fix; preserve original and corrected descriptions in Internal Notes, no rerecord for this alone**
 
-TaskRecorder fields - The TaskRecorder Task Description/Used Apps did not match the recording: \_\_\_. Reviewer: retain both the original and corrected descriptions in Internal Notes, correct Metadata.rtf and any editable Studio fields to match the actual recording and deliverables, and verify the separately attached corrected file. Preserve the original recording ZIP. This mismatch alone does not require a rerecord. For future recordings, check the Goal and app list before clicking Start Recording. For a brief video with further details, see [here](https://www.loom.com/share/efdd9afbedde42889ff81333b39d822b).
+TaskRecorder fields - The TaskRecorder Task Description/Used Apps did not match the recording: \_\_\_. Reviewer: retain both the original and corrected descriptions in Internal Notes, correct Metadata.rtf and any editable Studio fields to match the actual recording and deliverables, and replace and verify the corrected file in Metadata.rtf Upload. Preserve the original recording ZIP. This mismatch alone does not require a rerecord. For future recordings, check the Goal and app list before clicking Start Recording. For a brief video with further details, see [here](https://www.loom.com/share/efdd9afbedde42889ff81333b39d822b).
 
 **Task description document shown at start**
 
@@ -1406,7 +1729,7 @@ AutoQC not run - The \_\_\_ AutoQC wasn't run before submission. Please run both
 
 **All four task files uploaded**
 
-Missing files - \_\_\_ is missing from Studio. Each task needs four uploads: video.mp4, deliverables.zip, the TaskRecorder recording\_TIMESTAMP.zip, and Metadata.rtf in its own field (not inside deliverables.zip). For a brief video with further details, see [here](https://www.loom.com/share/3268bc3d525a49aeb214cad408ae8f56).
+Missing files - \_\_\_ is missing from Studio. Each task needs four uploads: video.mp4, deliverables.zip, the TaskRecorder recording\_TIMESTAMP.zip, and the final Metadata.rtf in Metadata.rtf Upload (not inside deliverables.zip). For a brief video with further details, see [here](https://www.loom.com/share/3268bc3d525a49aeb214cad408ae8f56).
 
 **Task Recorder zip contents complete, screenshots present**
 
@@ -1422,7 +1745,7 @@ Deliverable naming - Please name the zip "deliverables.zip" and label files insi
 
 **Metadata.rtf matches the task (apps, request, workflow)**
 
-Metadata.rtf - The \[Topology / Request / Task Description\] section does not match the recording: \_\_\_. For a brief video with further details, see [here](https://www.loom.com/share/b506e514af6143febfff1396f97d8668). Reviewer: retain the original and corrected task descriptions in Internal Notes, correct Metadata.rtf to accurately describe the recording and deliverables, and verify the separately uploaded corrected file. Topology should list each app visit in order as LOOKUP, CREATE or MODIFY. Preserve the original recording ZIP. Fixable metadata alone does not require a send-back or rerecord. Every delivery uses a new folder; do not add to an already-delivered folder.
+Metadata.rtf - The \[Topology / Request / Task Description\] section does not match the recording: \_\_\_. For a brief video with further details, see [here](https://www.loom.com/share/b506e514af6143febfff1396f97d8668). Reviewer: retain the original and corrected task descriptions in Internal Notes, correct Metadata.rtf to accurately describe the recording and deliverables, and replace and verify the corrected file in Metadata.rtf Upload. Topology should list each app visit in order as LOOKUP, CREATE or MODIFY. Preserve the original recording ZIP. Fixable metadata alone does not require a send-back or rerecord. Every delivery uses a new folder; do not add to an already-delivered folder.
 
 # Recording
 
@@ -1438,6 +1761,6 @@ Delivery callout: the cursor was inactive at MM:SS. Describe the observed durati
 
 **Narration: What and Where, with Why where useful**
 
-Narration - The narration needs to be clear enough that a listener could follow the task without seeing the screen. At MM:SS, MM:SS and MM:SS, \_\_\_. Name the action, specific element and screen location; avoid vague words like “here” and “this.” Add Why for important or non-obvious decisions. Reviewer: apply the current checklist for narration coverage and clarity. Silence duration never blocks approval; do not put bands or tolerance thresholds in the writer’s message. For a brief video with further details, see [here](https://www.loom.com/share/cfa11eb4802840b2bf5948164cce725f), and for golden examples, see [here](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?tab=t.4g0zgulqxcil#heading=h.h7xm13ec91ub)
+Narration - The narration needs to be clear enough that a listener could follow the task without seeing the screen. At MM:SS, MM:SS and MM:SS, \_\_\_. Name the action, specific element and screen location; avoid vague words like “here” and “this.” Add Why for important or non-obvious decisions. Reviewer: apply the current checklist for narration coverage and clarity. Silence duration never blocks approval; do not put bands or tolerance thresholds in the writer’s message. For a brief video with further details, see [here](https://www.loom.com/share/cfa11eb4802840b2bf5948164cce725f), and for golden examples, see [here](https://docs.google.com/document/d/1tOxjGqxhA6T49kXw9hrhwpEsk8ERaFOsB6gqZcrLAHg/edit?tab=t.4g0zgulqxcil#heading=h.h7xm13ec91ub).
 
 **Recording shows the writer doing what the task description says** Workflow match - The recording doesn't complete the approved Goal: \_\_\_ \[was skipped / was replaced with \_\_\_\] at MM:SS. Please record the workflow as approved. If your plan changes materially, submit a change request in Studio before recording. For a brief video with further details, see [here](https://www.loom.com/share/354d3ef8fd4e4c869dfebc8f1093839f).
